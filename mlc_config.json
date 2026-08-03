@@ -1,0 +1,9 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^mailto:" },
+    { "pattern": "^https://celoht.com" },
+    { "pattern": "^https://github.com/Celo-HT" },
+    { "pattern": "^https://api.celoht.com" }
+  ],
+  "aliveStatusCodes": [200, 206, 301, 302, 403]
+}

@@ -1,0 +1,11 @@
+# CODEOWNERS — org-wide default review routing.
+# Individual repositories may define their own CODEOWNERS, which takes
+# precedence within that repository.
+
+* @Celo-HT/maintainer-council
+
+# Governance and security-sensitive files always require Council review
+/CODE_OF_CONDUCT.md   @Celo-HT/maintainer-council
+/GOVERNANCE.md        @Celo-HT/maintainer-council
+/SECURITY.md          @Celo-HT/maintainer-council
+/FUNDING.yml           @Celo-HT/maintainer-council

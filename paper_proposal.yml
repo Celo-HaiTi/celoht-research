@@ -1,0 +1,39 @@
+name: Paper / Publication Proposal
+description: Propose a report, case study, or whitepaper based on completed or in-progress research
+title: "[Paper]: "
+labels: ["research", "publication"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Publication type
+      options:
+        - Working paper
+        - Report
+        - Case study
+        - Whitepaper
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What this publication would cover.
+    validations:
+      required: true
+  - type: input
+    id: research-link
+    attributes:
+      label: Related research
+      description: Link to the underlying study/data, if it exists yet.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I've reviewed the relevant template in templates/
+          required: true
+        - label: I understand this will need to pass peer review per PEER_REVIEW.md before publication
+          required: true

@@ -1,0 +1,28 @@
+# CODEOWNERS — routes review requests to the right area maintainers.
+# Until named maintainers are assigned per research area (tracked via
+# MAINTAINERS.md in the main documentation repository), reviews route to
+# the general research maintainers group.
+
+* @Celo-HT/research-maintainers
+
+/research/financial-inclusion/ @Celo-HT/research-maintainers
+/research/stablecoins/         @Celo-HT/research-maintainers
+/research/celo/                @Celo-HT/research-maintainers
+/research/web3/                @Celo-HT/research-maintainers
+/research/education/           @Celo-HT/research-maintainers
+/research/climate/             @Celo-HT/research-maintainers
+/research/reforestation/       @Celo-HT/research-maintainers
+/research/governance/          @Celo-HT/research-maintainers
+/research/economics/           @Celo-HT/research-maintainers
+/research/policy/              @Celo-HT/research-maintainers
+/research/community/           @Celo-HT/research-maintainers
+/research/technology/          @Celo-HT/research-maintainers
+/research/identity/            @Celo-HT/research-maintainers
+/research/ai/                  @Celo-HT/research-maintainers
+/research/security/            @Celo-HT/research-maintainers
+/research/sustainability/      @Celo-HT/research-maintainers
+
+# Policy documents affecting the whole repository require broader review
+/RESEARCH_ETHICS.md      @Celo-HT/research-maintainers
+/DATA_POLICY.md          @Celo-HT/research-maintainers
+/PUBLICATION_POLICY.md   @Celo-HT/research-maintainers

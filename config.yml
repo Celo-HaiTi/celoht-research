@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Question
+    url: https://github.com/Celo-HT/celoht-research/discussions
+    about: For general questions about CeloHT research, use Discussions.
+  - name: Ethics Concern
+    url: mailto:research@celoht.com
+    about: For research ethics concerns, email directly rather than filing a public issue.

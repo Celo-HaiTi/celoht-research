@@ -1,0 +1,39 @@
+name: New Brand Asset Request
+description: Propose a new brand document, guideline, or asset for the CeloHT Brand Repository
+title: "[Asset]: "
+labels: ["brand", "new-asset"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the CeloHT brand system! Please review [CONTRIBUTING.md](../../CONTRIBUTING.md) before submitting.
+  - type: input
+    id: asset-name
+    attributes:
+      label: Asset or document name
+      placeholder: "e.g. PHOTOGRAPHY_GUIDE.md"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is this and why is it needed?
+      description: Describe the asset/document and the use case it solves.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference or preview
+      description: Link to a draft, sketch, or example if available.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have reviewed BRAND_GUIDE.md and this fits CeloHT's identity
+          required: true
+        - label: This will be submitted as a complete document/asset, not a placeholder
+          required: true

@@ -1,0 +1,41 @@
+name: Validate Documentation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for broken internal links in Markdown
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          config-file: '.github/mlc_config.json'
+
+      - name: Lint Markdown formatting
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: '**/*.md'
+
+      - name: Check for promotional token/investment language
+        run: |
+          echo "Scanning for language that would violate NO_TOKEN_POLICY.md..."
+          echo "NO_TOKEN_POLICY.md, SECURITY.md, and FAQ.md are excluded: they must"
+          echo "legitimately quote forbidden terms (e.g. '\$CELOHT') to warn against them."
+          if grep -rniE '\$celoht\b|celoht ?coin\b|celoht token (sale|launch|is live)|presale (is|now) (live|open)|buy celoht|invest in celoht' \
+            --include="*.md" \
+            --exclude="NO_TOKEN_POLICY.md" \
+            --exclude="SECURITY.md" \
+            --exclude="FAQ.md" \
+            . ; then
+            echo "::error::Found promotional token/investment language. Review flagged lines above."
+            exit 1
+          fi
+          echo "PASS: no promotional token/investment language found outside policy-defining docs."

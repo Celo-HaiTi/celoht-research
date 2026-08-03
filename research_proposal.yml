@@ -1,0 +1,69 @@
+name: Research Proposal
+description: Propose a new research question or study for CeloHT Research
+title: "[Proposal]: "
+labels: ["research", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing research! Please review [RESEARCH_GUIDELINES.md](../../RESEARCH_GUIDELINES.md) before submitting.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Research area
+      options:
+        - financial-inclusion
+        - stablecoins
+        - celo
+        - web3
+        - education
+        - climate
+        - reforestation
+        - governance
+        - economics
+        - policy
+        - community
+        - technology
+        - identity
+        - ai
+        - security
+        - sustainability
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: The specific question this study would answer.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why this matters
+      description: How this connects to CeloHT's mission or a current program decision.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Proposed method
+      description: See METHODOLOGY.md for the shared framework.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data needs
+      description: What data this requires, and whether it involves human subjects (see RESEARCH_ETHICS.md).
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked for existing or in-progress work on this question
+          required: true
+        - label: If this involves human-subject data, I've reviewed RESEARCH_ETHICS.md
+          required: true

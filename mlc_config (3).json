@@ -1,0 +1,7 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^mailto:" },
+    { "pattern": "^https://celoht.com" }
+  ],
+  "aliveStatusCodes": [200, 206, 301, 302, 403]
+}

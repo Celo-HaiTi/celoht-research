@@ -1,0 +1,64 @@
+name: ✨ Feature Request
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Feature requests are reviewed against CeloHT's current pillars (Education, Agent Network, Reforestation) and No-Token Policy.
+
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Which repository does this apply to?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the gap or friction this feature would address.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you thought about.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Which pillar does this relate to?
+      options:
+        - Education
+        - Agent Network
+        - Reforestation
+        - Governance / Community
+        - Infrastructure / Tooling
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and didn't find a duplicate
+          required: true
+        - label: This does not involve a token, investment feature, or anything conflicting with the No-Token Policy
+          required: true

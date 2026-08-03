@@ -1,0 +1,13 @@
+# FUNDING.yml — powers the "Sponsor" button across CeloHT repositories.
+#
+# Deliberately excludes any cryptocurrency donation address or token-based
+# funding mechanism. This is intentional, not an oversight: CeloHT has a
+# permanent No-Token Policy (see NO_TOKEN_POLICY.md in the main documentation
+# repository) and accepting crypto donations directly to the organization
+# would blur that line. Supported channels below are conventional,
+# fiat-denominated platforms only.
+
+github: [Celo-HT]
+open_collective: celoht
+custom:
+  - "https://celoht.com/donate"

@@ -1,0 +1,29 @@
+name: 🔒 Security Concern
+description: For non-critical security questions only — see below for reporting an actual vulnerability
+title: "[Security]: "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚠️ Please read before filing
+
+        **If you've found an actual security vulnerability, do NOT file it here.**
+        Email **security@celoht.com** instead — see [SECURITY.md](https://github.com/Celo-HT/.github/blob/main/SECURITY.md) for our full policy and response timeline.
+
+        This form is only for **general, non-sensitive security questions** — e.g. "where is the threat model documented?" — that don't disclose a specific exploitable issue.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a general question, NOT a specific vulnerability report (vulnerabilities go to security@celoht.com)
+          required: true

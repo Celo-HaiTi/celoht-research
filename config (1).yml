@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Question / Discussion
+    url: https://github.com/orgs/Celo-HT/discussions
+    about: For general questions, ideas, or open-ended discussion, use Discussions instead of an issue.
+  - name: 🔒 Report a Security Vulnerability
+    url: mailto:security@celoht.com
+    about: For actual vulnerabilities, email us directly rather than filing a public issue — see SECURITY.md.
+  - name: 🤝 Partnership Inquiry
+    url: https://github.com/Celo-HT/CeloHT/blob/main/PARTNERS.md
+    about: For partnership proposals, see our partnership guide for how to reach us.

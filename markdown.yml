@@ -1,0 +1,37 @@
+name: Validate Markdown
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown formatting
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: '**/*.md'
+
+      - name: Check code-fence balance
+        run: |
+          fail=0
+          for f in $(find . -name "*.md"); do
+            n=$(grep -c '```' "$f")
+            if [ $((n % 2)) -ne 0 ]; then
+              echo "::error file=$f::Unbalanced code fence (odd count: $n)"
+              fail=1
+            fi
+          done
+          exit $fail
+
+      - name: Check for placeholder markers
+        run: |
+          if grep -rln "Coming Soon\|TODO:\|FIXME\|lorem ipsum" --include="*.md" . ; then
+            echo "::warning::Possible placeholder content found — please review before merging."
+          fi

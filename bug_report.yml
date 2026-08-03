@@ -1,0 +1,28 @@
+name: Bug / Error Report
+description: Report a broken link, factual error, or reproducibility issue in published research
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: File path or URL.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Minor (typo, formatting)
+        - Moderate (broken link, unclear methodology)
+        - Major (factual error, reproducibility failure — see PUBLICATION_POLICY.md#corrections)
+    validations:
+      required: true

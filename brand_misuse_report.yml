@@ -1,0 +1,33 @@
+name: Brand Misuse or Trademark Concern
+description: Report incorrect, misleading, or unauthorized use of the CeloHT name or logo
+title: "[Misuse]: "
+labels: ["brand-misuse", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For urgent issues (e.g. phishing sites, fake tokens using CeloHT branding), please email contact@celoht.org directly instead of — or in addition to — filing here. See [SECURITY.md](../../SECURITY.md).
+  - type: input
+    id: location
+    attributes:
+      label: Where did you see this?
+      placeholder: "URL, platform, or location"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What's the issue?
+      description: Describe how the CeloHT name/logo is being used incorrectly or without authorization.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Low (minor guideline deviation)
+        - Medium (misleading but not fraudulent)
+        - High (implies investment/token, or fraud/phishing risk)
+    validations:
+      required: true

@@ -1,0 +1,42 @@
+name: 📚 Documentation
+description: Report a gap, error, or unclear section in CeloHT documentation
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: File path or URL of the affected documentation.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of issue
+      options:
+        - Factual error
+        - Broken link
+        - Unclear or confusing explanation
+        - Missing information
+        - Outdated content
+        - Typo / formatting
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What's wrong, and (if you know) what it should say instead.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked that this isn't already reported
+          required: true

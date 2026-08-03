@@ -1,0 +1,54 @@
+name: Validate Research Repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for broken internal links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          config-file: '.github/mlc_config.json'
+
+      - name: Lint Markdown formatting
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: '**/*.md'
+
+      - name: Spell check
+        uses: streetsidesoftware/cspell-action@v6
+        with:
+          config: '.github/cspell.json'
+        continue-on-error: true
+
+      - name: Vale prose linting
+        uses: errata-ai/vale-action@v2
+        with:
+          version: 3.0.0
+        continue-on-error: true
+
+      - name: Check for promotional token/investment language
+        run: |
+          echo "Scanning for language inconsistent with the No-Token Policy..."
+          if grep -rniE '\$celoht\b|celoht ?coin\b|celoht token (sale|launch|is live)|presale (is|now) (live|open)|buy celoht|invest in celoht' \
+            --include="*.md" . ; then
+            echo "::error::Found promotional token/investment language."
+            exit 1
+          fi
+          echo "PASS"
+
+      - name: Check no-placeholder standard
+        run: |
+          if grep -rln "TODO\|FIXME\|lorem ipsum" --include="*.md" . | grep -v "TODO\"\|no TODO\|no \"TODO"; then
+            echo "::warning::Possible leftover placeholder markers found — review before merging."
+          fi
+          echo "Check complete."
