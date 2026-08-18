@@ -19,7 +19,7 @@
 
 CeloHT is a Haitian-led, open-source, community-governed initiative founded in Léogâne, Haiti. We build tools, education, and local support so that financial access doesn't depend on distance from a bank branch — and we do it without a token, without an investment pitch, and without pretending environmental cost is someone else's problem.
 
-**We are not a blockchain, not a cryptocurrency, not an ICO, and not an investment platform.** We build *on* the Celo ecosystem — using cUSD for payments and CELO for network fees — the way any organization builds on infrastructure it doesn't own or control.
+**We are not a blockchain, not a cryptocurrency, not an ICO, and not an investment platform.** We build *on* the Celo ecosystem — using USDm for payments and CELO for network fees — the way any organization builds on infrastructure it doesn't own or control.
 
 ## Our Three Pillars
 

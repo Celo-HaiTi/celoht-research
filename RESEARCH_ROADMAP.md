@@ -15,7 +15,7 @@ Aligned with [Phase 1 of the program roadmap](https://github.com/Celo-HT/CeloHT/
 |---|---|---|
 | Establish this repository's structure, policies, and templates | Governance | ✅ Done |
 | Baseline literature review: financial inclusion in Haiti | financial-inclusion | ⏳ Planned |
-| Baseline literature review: Celo/cUSD suitability for low-connectivity contexts | celo, stablecoins | ⏳ Planned |
+| Baseline literature review: Celo/USDm suitability for low-connectivity contexts | celo, stablecoins | ⏳ Planned |
 | Design the Phase 2 pilot evaluation methodology | financial-inclusion, education | 🔄 In progress |
 
 ## Phase 2 — Validation Research (2026 Q4 – 2027 Q1)

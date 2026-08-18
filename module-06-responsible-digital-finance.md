@@ -23,16 +23,16 @@ Directly reinforces [../NO_TOKEN_POLICY.md](../NO_TOKEN_POLICY.md). Teaching fra
 
 Discussion of how speculative schemes elsewhere in Web3 create pressure ("get in early," "limited time") — and why CeloHT's slow, transparent, education-first governance process (see [../GOVERNANCE.md](../GOVERNANCE.md)) is deliberately the opposite of that pattern.
 
-## Lesson 6.3 — Using cUSD Responsibly
+## Lesson 6.3 — Using USDm Responsibly
 
-Practical guidance: cUSD is well suited for spending, saving for a specific near-term goal, and sending/receiving payments — not for treating as a speculative holding, since its whole design purpose is stability, not growth.
+Practical guidance: USDm is well suited for spending, saving for a specific near-term goal, and sending/receiving payments — not for treating as a speculative holding, since its whole design purpose is stability, not growth.
 
 ## Lesson 6.4 — For Small Business & Entrepreneurs
 
 Extension content for entrepreneur audiences (see [../EDUCATION.md](../EDUCATION.md#audiences--programs)):
 - Basic digital bookkeeping using transaction history as a record
 - Using CeloHT/Agent Network for supplier payments and customer receipts
-- Cross-border payment use case: receiving payment from a diaspora customer or partner via cUSD, with predictable, low fees (see [../CELO.md](../CELO.md#cross-border-payments))
+- Cross-border payment use case: receiving payment from a diaspora customer or partner via USDm, with predictable, low fees (see [../CELO.md](../CELO.md#cross-border-payments))
 
 ## Lesson 6.5 — Decentralized Finance (DeFi) Basics — Conceptual Only
 
@@ -40,7 +40,7 @@ A brief, deliberately conceptual-only overview of what DeFi is in the broader ec
 
 ## Assessment
 
-Participant can explain, in their own words, why CeloHT is not an investment, and can describe one responsible and one risky way to use a stable digital asset like cUSD.
+Participant can explain, in their own words, why CeloHT is not an investment, and can describe one responsible and one risky way to use a stable digital asset like USDm.
 
 ## Next Module
 

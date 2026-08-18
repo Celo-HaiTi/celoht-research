@@ -14,7 +14,7 @@ Agents must be able to explain CeloHT's three pillars and, critically, correctly
 ### Session 1.2 — Wallet Operations
 Hands-on: Valora setup, transaction verification, reading a transaction confirmation screen — mirrors [education module 4](../education/module-04-wallet-safety.md) but at agent-operational depth (e.g. handling a user's setup issues, not just their own).
 
-### Session 1.3 — cUSD/CELO Deep Dive
+### Session 1.3 — USDm/CELO Deep Dive
 Beyond user-level understanding: float management concepts, transaction fee estimation, and how gas costs (in CELO) factor into agent operations — see [../CUSD.md](../CUSD.md) and [../CELO.md](../CELO.md).
 
 ## Day 2: Operations & Compliance

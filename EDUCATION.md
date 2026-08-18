@@ -22,7 +22,7 @@ Each module below has a full, detailed lesson plan in [`education/`](./education
 
 1. **[Digital & Financial Literacy Foundations](./education/module-01-financial-literacy-foundations.md)** — budgeting, saving, understanding fees and value
 2. **[Introduction to Web3 & Blockchain](./education/module-02-web3-and-blockchain.md)** — plain-language explanation of what a blockchain is and isn't
-3. **[Understanding cUSD and CELO](./education/module-03-cusd-and-celo.md)** — what they are, how they differ, why cUSD is used for payments and CELO only for gas
+3. **[Understanding USDm and CELO](./education/module-03-cusd-and-celo.md)** — what they are, how they differ, why USDm is used for payments and CELO only for gas
 4. **[Using Valora Safely](./education/module-04-wallet-safety.md)** — wallet setup, seed phrase security, transaction verification
 5. **[Digital Security](./education/module-05-digital-security.md)** — phishing awareness, scam recognition (including fake "CeloHT token" scams — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)), device security
 6. **[Responsible Digital Finance](./education/module-06-responsible-digital-finance.md)** — understanding that CeloHT is not an investment, includes entrepreneur/small-business extension content and a conceptual DeFi-basics lesson

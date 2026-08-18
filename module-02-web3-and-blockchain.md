@@ -26,7 +26,7 @@ Approx. 60 minutes.
 **Key points, taught simply:**
 - Built to work well on regular smartphones, including lower-end ones
 - Transaction costs are small and predictable
-- Has a "stable" digital dollar (cUSD) — not something whose value jumps around like some other digital assets
+- Has a "stable" digital dollar (USDm) — not something whose value jumps around like some other digital assets
 
 See [../CELO.md](../CELO.md) for the full technical rationale (reference-level, for developers/advanced learners).
 
@@ -36,7 +36,7 @@ This lesson directly and explicitly addresses misconceptions participants likely
 
 | Misconception | Correction |
 |---|---|
-| "This is like buying a cryptocurrency to get rich" | CeloHT has no token to buy. cUSD is used for payments, not speculation — see [../NO_TOKEN_POLICY.md](../NO_TOKEN_POLICY.md) |
+| "This is like buying a cryptocurrency to get rich" | CeloHT has no token to buy. USDm is used for payments, not speculation — see [../NO_TOKEN_POLICY.md](../NO_TOKEN_POLICY.md) |
 | "I need to understand complex technology to use this safely" | You need to understand your wallet and how to verify a transaction — covered in [Module 4](./module-04-wallet-safety.md) |
 | "Blockchain = crypto scam" | Acknowledge this fear directly — it's often based on real bad experiences elsewhere. Explain what makes CeloHT structurally different (No-Token Policy, community governance, no promised returns) |
 
@@ -50,4 +50,4 @@ Participant should be able to explain blockchain using their own analogy (not me
 
 ## Next Module
 
-[Module 3: Understanding cUSD and CELO →](./module-03-cusd-and-celo.md)
+[Module 3: Understanding USDm and CELO →](./module-03-cusd-and-celo.md)

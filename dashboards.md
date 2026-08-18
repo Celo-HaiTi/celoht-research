@@ -8,10 +8,10 @@
 At-a-glance: current status (Active/Suspended/etc. per [AgentRegistry](../SMART_CONTRACTS.md#agentregistry--reference-specification)), recertification due date, today's transaction count and float summary.
 
 ### Transaction History
-Full log of cash-in/cash-out transactions, filterable by date range, with each entry showing: timestamp, type, amount (cUSD), counterparty (pseudonymous), and confirmation status.
+Full log of cash-in/cash-out transactions, filterable by date range, with each entry showing: timestamp, type, amount (USDm), counterparty (pseudonymous), and confirmation status.
 
 ### Float & Liquidity
-Current cUSD balance and estimated physical cash float, with a low-float alert threshold the agent can configure — prompting timely replenishment coordination with their Regional Coordinator.
+Current USDm balance and estimated physical cash float, with a low-float alert threshold the agent can configure — prompting timely replenishment coordination with their Regional Coordinator.
 
 ### Compliance Status
 Training completion, last audit date and result, and any open flags — visible to the agent for full transparency, not hidden administrative data.

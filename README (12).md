@@ -14,7 +14,7 @@ Financial inclusion is CeloHT's central claim. This research area exists to test
 1. Do people who complete CeloHT's education program go on to use digital financial tools independently, or only with an agent present?
 2. What barriers remain for people who don't adopt, even after training and agent access exist locally?
 3. How does Agent Network transaction behavior change over a user's first 6–12 months?
-4. Does access to cUSD payments change household financial resilience (ability to handle a shock expense, save toward a goal)?
+4. Does access to USDm payments change household financial resilience (ability to handle a shock expense, save toward a goal)?
 5. Who is *not* being reached, and why?
 
 ## Objectives

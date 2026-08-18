@@ -38,7 +38,7 @@ Nursery leads complete a training module covering: propagation basics for the re
 
 ## Compensation
 
-Nursery maintenance work is compensated transparently in cUSD per the published rate structure — see [../REFORESTATION.md](../REFORESTATION.md#community-incentives) and [../CAREERS.md](../CAREERS.md#compensated-roles). This is treated as real, valued labor, not unpaid volunteering, given its sustained, skilled nature compared to a single-day planting event.
+Nursery maintenance work is compensated transparently in USDm per the published rate structure — see [../REFORESTATION.md](../REFORESTATION.md#community-incentives) and [../CAREERS.md](../CAREERS.md#compensated-roles). This is treated as real, valued labor, not unpaid volunteering, given its sustained, skilled nature compared to a single-day planting event.
 
 ## Scaling: From One Nursery to a Network
 

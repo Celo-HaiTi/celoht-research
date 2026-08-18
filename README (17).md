@@ -70,7 +70,7 @@ celoht-research/
 | Area | Focus |
 |---|---|
 | [financial-inclusion](./research/financial-inclusion/) | Access, adoption, and outcomes of CeloHT's financial tools |
-| [stablecoins](./research/stablecoins/) | cUSD usage patterns, stability, and payment behavior |
+| [stablecoins](./research/stablecoins/) | USDm usage patterns, stability, and payment behavior |
 | [celo](./research/celo/) | Celo blockchain performance, cost, and suitability research |
 | [web3](./research/web3/) | Broader Web3 adoption and education research |
 | [education](./research/education/) | Curriculum effectiveness and financial/digital literacy outcomes |

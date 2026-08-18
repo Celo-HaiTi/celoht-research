@@ -7,7 +7,7 @@
 
 ## Overview
 
-CeloHT chose Celo for specific, stated reasons — mobile-first design, low fees, cUSD stability (see the main documentation repository's `CELO.md`). This research area exists to keep checking those reasons against reality as network conditions and CeloHT's needs evolve, rather than treating the original choice as permanently settled.
+CeloHT chose Celo for specific, stated reasons — mobile-first design, low fees, USDm stability (see the main documentation repository's `CELO.md`). This research area exists to keep checking those reasons against reality as network conditions and CeloHT's needs evolve, rather than treating the original choice as permanently settled.
 
 ## Research Questions
 

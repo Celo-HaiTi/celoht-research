@@ -40,7 +40,7 @@ Where scientifically defensible, estimated carbon sequestration is reported usin
 
 ## Community Incentives
 
-Community members involved in nursery maintenance and planting verification receive transparent, published compensation for their time (denominated in cUSD, consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)), not speculative or token-based rewards.
+Community members involved in nursery maintenance and planting verification receive transparent, published compensation for their time (denominated in USDm, consistent with [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md)), not speculative or token-based rewards.
 
 ## Environmental Reporting
 

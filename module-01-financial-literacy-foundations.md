@@ -18,7 +18,7 @@ By the end of this module, a participant should be able to:
 
 ## Lesson 1.1 — Understanding Money and Value
 
-**Key concept:** Money is a tool for exchanging value — whether it's paper cash, a bank balance, or a digital asset like cUSD, the function is the same: it lets you trade what you have for what you need.
+**Key concept:** Money is a tool for exchanging value — whether it's paper cash, a bank balance, or a digital asset like USDm, the function is the same: it lets you trade what you have for what you need.
 
 **Discussion prompt:** "What do you currently use to pay for things day to day? What works well? What's frustrating?"
 
@@ -46,7 +46,7 @@ By the end of this module, a participant should be able to:
 
 ## Lesson 1.4 — Introduction to Saving Digitally
 
-**Key concept:** Holding value digitally (e.g. in cUSD) can reduce the risks of holding physical cash (theft, loss, spoilage) — introduces the idea developed fully in [Module 3](./module-03-cusd-and-celo.md).
+**Key concept:** Holding value digitally (e.g. in USDm) can reduce the risks of holding physical cash (theft, loss, spoilage) — introduces the idea developed fully in [Module 3](./module-03-cusd-and-celo.md).
 
 ## Assessment
 

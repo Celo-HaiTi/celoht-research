@@ -12,7 +12,7 @@ CeloHT measures success through outcomes, not financial performance — because 
 | Active learners | Users with education activity in the last 30 days | Off-chain education platform records |
 | Wallets created | Unique Valora wallets connected through CeloHT onboarding flow | dApp analytics, deduplicated by wallet address |
 | Active agents | Agents with `Active` on-chain status per [AgentRegistry](./SMART_CONTRACTS.md#agentregistry--reference-specification) and at least one transaction in the last 30 days | On-chain + off-chain agent activity log |
-| Transactions / cUSD volume | Count and total value of cUSD transactions processed via the Agent Network | On-chain transaction data |
+| Transactions / USDm volume | Count and total value of USDm transactions processed via the Agent Network | On-chain transaction data |
 | Communities reached | Distinct communities (defined at the commune/locality level) with at least one active agent or completed education program | Agent Network + Education records, cross-referenced |
 | Trees planted | Logged planting events, GPS-tagged | Reforestation program records |
 | Trees surviving | Trees confirmed alive at the 18-month monitoring check | Community + spot-verified monitoring, see [REFORESTATION.md](./REFORESTATION.md#methodology) |

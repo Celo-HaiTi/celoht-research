@@ -40,10 +40,10 @@ The Agent Network is CeloHT's human bridge between cash economies and digital pa
 ## Operations
 
 ### Core Services
-- **Cash-in:** converting physical cash to cUSD for a user
-- **Cash-out:** converting a user's cUSD to physical cash
+- **Cash-in:** converting physical cash to USDm for a user
+- **Cash-out:** converting a user's USDm to physical cash
 - **Wallet onboarding:** helping new users set up Valora safely
-- **Community liquidity:** agents maintain a cUSD/cash float to serve their community reliably
+- **Community liquidity:** agents maintain a USDm/cash float to serve their community reliably
 
 ### Agent Dashboards
 Agents access a mobile-optimized dashboard (see [DAPP.md](./DAPP.md#agent-dashboard)) showing: transaction history, current float/liquidity status, compliance status, and training/certification status. **Full dashboard specification:** [agent-network/dashboards.md](./agent-network/dashboards.md)
@@ -68,7 +68,7 @@ Coordinators support clusters of agents within a region — handling escalations
 
 ## Revenue Model
 
-Agents earn a transparent, published per-transaction fee for cash-in/cash-out services, denominated and paid in cUSD. This fee structure is published to prevent both agent exploitation and predatory fee practices toward users. Agents do **not** receive token-based compensation of any kind — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
+Agents earn a transparent, published per-transaction fee for cash-in/cash-out services, denominated and paid in USDm. This fee structure is published to prevent both agent exploitation and predatory fee practices toward users. Agents do **not** receive token-based compensation of any kind — see [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
 ## Expansion Model
 
