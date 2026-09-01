@@ -1,10 +1,26 @@
-# CeloHT Documentation
+# CeloHT Research & Documentation
 
-**The complete technical, governance, and impact documentation for CeloHT a Haitian-led, open-source, community-governed initiative for financial inclusion, blockchain education, and environmental sustainability, founded in Léogâne, Haiti.**
+CeloHT is a Haitian-led, open-source, community-governed initiative focused on financial inclusion, blockchain education, and sustainable development.
+
+This repository brings together the core research, governance, technical, and community documentation for the initiative.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 [![No Token Policy](https://img.shields.io/badge/Token-None-critical)](./NO_TOKEN_POLICY.md)
-[![Community Governed](https://img.shields.io/badge/Governance-Community-1B2A4A)](./GOVERNANCE.md)
+[![Community Governance](https://img.shields.io/badge/Governance-Community-1B2A4A)](./GOVERNANCE.md)
+
+---
+
+## Overview
+
+CeloHT operates through three permanent pillars:
+
+1. Education — Web3, financial literacy, and digital security education, primarily in Haitian Creole.
+2. Agent Network — local agents helping communities access digital financial tools with trust and support.
+3. Reforestation — environmental restoration connected to community development and transparent reporting.
+
+The project uses the Celo network as infrastructure for payments and digital access, while remaining independent from the Celo Foundation or Valora.
+
+CeloHT has no native token, no ICO, no presale, and no investment promise. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
 ---
 
@@ -12,117 +28,88 @@
 
 | I want to... | Read |
 |---|---|
-| Understand what CeloHT is, in 5 minutes | [LITEPAPER.md](./LITEPAPER.md) |
-| Get the full institutional-grade overview | [WHITEPAPER.md](./WHITEPAPER.md) |
-| See how CeloHT started and what's happened so far | [HISTORY.md](./HISTORY.md) |
-| Understand how CeloHT is funded and sustained | [BUSINESS_MODEL.md](./BUSINESS_MODEL.md) |
-| Understand how CeloHT is governed | [GOVERNANCE.md](./GOVERNANCE.md) |
-| Confirm CeloHT has no token | [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md) |
+| Understand the mission | [MISSION.md](./MISSION.md) |
+| Read the short overview | [LITEPAPER.md](./LITEPAPER.md) |
+| Read the full institutional overview | [WHITEPAPER.md](./WHITEPAPER.md) |
+| Understand the origin and milestones | [HISTORY.md](./HISTORY.md) |
+| Learn how the initiative is governed | [GOVERNANCE.md](./GOVERNANCE.md) |
+| Review the funding model | [BUSINESS_MODEL.md](./BUSINESS_MODEL.md) |
+| Understand the education pillar | [EDUCATION.md](./EDUCATION.md) |
+| Understand the agent network | [AGENT_NETWORK.md](./AGENT_NETWORK.md) |
+| Understand reforestation work | [REFORESTATION.md](./REFORESTATION.md) |
 | Learn the technical architecture | [ARCHITECTURE.md](./ARCHITECTURE.md) |
-| Understand the Education pillar | [EDUCATION.md](./EDUCATION.md) |
-| Understand the Agent Network pillar | [AGENT_NETWORK.md](./AGENT_NETWORK.md) |
-| Understand the Reforestation pillar | [REFORESTATION.md](./REFORESTATION.md) |
-| Build on CeloHT (smart contracts, dApp) | [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md) + [SMART_CONTRACTS.md](./SMART_CONTRACTS.md) |
-| Integrate with CeloHT's API | [API_REFERENCE.md](./API_REFERENCE.md) |
+| Build or contribute | [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md) |
 | Report a security issue | [SECURITY.md](./SECURITY.md) |
-| Contribute | [CONTRIBUTING.md](./CONTRIBUTING.md) |
-| See what's coming | [ROADMAP.md](./ROADMAP.md) |
-| Look up a term | [GLOSSARY.md](./GLOSSARY.md) |
+| Contribute to the repo | [CONTRIBUTING.md](./CONTRIBUTING.md) |
+| Browse the roadmap | [ROADMAP.md](./ROADMAP.md) |
+| Look up terminology | [GLOSSARY.md](./GLOSSARY.md) |
 
 ---
 
-## What is CeloHT?
+## Repository Scope
 
-CeloHT is a Haitian-led, open-source initiative expanding financial inclusion through three permanent pillars:
+This repository is the main documentation and research hub for the project. It includes:
 
-1. **[Education](./EDUCATION.md)** — Web3, financial literacy, and digital security education, delivered primarily in Haitian Creole.
-2. **[Agent Network](./AGENT_NETWORK.md)** — a trained, community-rooted network of local agents providing cash ↔ USDm conversion and digital payment support.
-3. **[Reforestation](./REFORESTATION.md)** — measurable, transparently reported environmental restoration tied to community development.
+- Strategic and institutional documents
+- Governance and policy materials
+- Research, impact, and methodology documents
+- Technical architecture and developer guidance
+- Education and community-facing materials
+- Security, support, and contribution guidance
 
-CeloHT uses the **Celo blockchain** as infrastructure supporting **USDm** for payments, **CELO** for gas, and the **Valora** wallet. CeloHT is independently governed by its community and is **not officially affiliated with, endorsed by, or operated by Celo Foundation or Valora.**
+---
 
-**CeloHT has no native token, no ICO, no presale, and makes no investment promises.** See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
+## Repository Snapshot
 
-## Language Policy
-
-All content in this repository is maintained in **English** as the primary technical/reference language, to ensure consistency for the global developer and partner community. Education-facing materials distributed directly to communities are produced separately, primarily in Haitian Creole — see [EDUCATION.md](./EDUCATION.md#localization).
-
-## Repository Map
-
-```
-celoht-docs/
-├── README.md                  You are here
-├── WHITEPAPER.md               Full institutional overview
-├── LITEPAPER.md                Concise overview for partners/press
-├── HISTORY.md                   Origin and verified key milestones
-├── BUSINESS_MODEL.md            Funding sources and long-term sustainability
-├── FOUNDATION.md                Foundational structure and principles
-├── FOUNDER.md                   Founder profile and role
-├── AUTHORS.md                   Contributor recognition
-├── ARCHITECTURE.md             System design and technical architecture
-├── SYSTEM_DESIGN.md             ADRs and detailed data flows
-├── SMART_CONTRACTS.md          Smart contract specifications
-├── DAPP.md                     dApp design and user flows
-├── API_REFERENCE.md            API specification
-├── SDK.md                       SDK specification
-├── CLI.md                       CLI tool specification
-├── TECHNOLOGY.md                 One-page technology stack overview
-├── THREAT_MODEL.md               Detailed threat analysis
-├── INCIDENT_RESPONSE.md          Step-by-step incident response process
-├── TRADEMARK.md                  Trademark usage and enforcement
-├── SUPPORT.md / CONTACT.md       How to get help, who to contact
-├── MAINTAINERS.md / FIRST_CONTRIBUTION.md   Maintainer model, first-PR guide
-├── DEVELOPER_GUIDE.md          How to build with/on CeloHT
-├── USER_GUIDE.md                 How to use CeloHT as an end user
-├── DEPLOYMENT.md                 Deployment process across environments
-├── MONITORING.md                 Observability and incident response
-├── EDUCATION.md                Education pillar
-├── AGENT_NETWORK.md            Agent Network pillar
-├── REFORESTATION.md            Reforestation pillar
-├── CELO.md / USDm.md / VALORA.md         Ecosystem integration docs
-├── GOVERNANCE.md               Decision-making, maintainers, working groups
-├── WORKING_GROUPS.md            Working group charters
-├── NO_TOKEN_POLICY.md          Formal no-token policy
-├── FUNDING_POLICY.md            Funding rules and transparency
-├── LEGAL_STATUS.md             Legal structure and disclaimers
-├── DISCLAIMER.md                Full legal disclaimer (liability, no investment, blockchain risk)
-├── PRIVACY.md / TERMS.md        Privacy and terms summaries
-├── SECURITY.md                 Security policy and threat model
-├── ROADMAP.md                  Multi-year roadmap
-├── PARTNERS.md                 Partnership framework and current partners
-├── METRICS.md / IMPACT.md       Impact metrics, methodology, theory of change
-├── CASE_STUDIES.md / RESEARCH.md  Case study standards, research partnerships
-├── COMMUNITY.md / AMBASSADOR_PROGRAM.md / EVENTS.md   Community structure
-├── ACCESSIBILITY.md              Accessibility standard and testing
-├── SUSTAINABILITY.md             Environmental + organizational sustainability
-├── TRANSLATION_GUIDE.md          Localization and translation standards
-├── FAQ.md                      Frequently asked questions
-├── GLOSSARY.md                 Terminology reference
-├── CONTRIBUTING.md             How to contribute
-├── CODING_STANDARDS.md          Code style and testing requirements
-├── RELEASE_MANAGEMENT.md        Versioning and release process
-├── PROJECT_STRUCTURE.md         Repository and org structure
-├── DESIGN_SYSTEM.md             Application-level design token implementation
-├── SUPPORTED_NETWORKS.md        Celo network tiers used
-├── SUCCESS_STORIES.md / BLOG_GUIDE.md / CAREERS.md   Content and employment standards
-├── CODE_OF_CONDUCT.md          Community standards
-├── CHANGELOG.md                Documentation version history
-└── LICENSE                     Apache 2.0 License
-
-education/            Full 8-module curriculum, lesson-by-lesson (see EDUCATION.md)
-agent-network/         Full operational manuals: onboarding, training, risk, dashboards, emergencies
-reforestation/          Full operational manuals: planting, nursery, monitoring, volunteers
-templates/              Standard response templates: community updates, partnership inquiries, issue triage
-validate.sh             Local validation script (mirrors CI checks)
+```text
+celoht-research/
+├── README.md                     Main entry point
+├── MISSION.md                    Mission and operating principles
+├── LITEPAPER.md                  Short overview for partners and public audiences
+├── WHITEPAPER.md                 Full institutional and strategic document
+├── HISTORY.md                    Project origin and milestones
+├── GOVERNANCE.md                 Governance model and decision-making
+├── BUSINESS_MODEL.md             Funding and sustainability model
+├── EDUCATION.md                  Education pillar
+├── AGENT_NETWORK.md              Agent network pillar
+├── REFORESTATION.md              Reforestation pillar
+├── ARCHITECTURE.md               System and technical architecture
+├── DEVELOPER_GUIDE.md            Developer workflow and integration guidance
+├── API_REFERENCE.md             API documentation
+├── SMART_CONTRACTS.md           Smart contract documentation
+├── SECURITY.md                  Security policy and reporting
+├── CONTRIBUTING.md               Contribution guidance
+├── ROADMAP.md                   Roadmap and planned milestones
+├── NO_TOKEN_POLICY.md            Formal token policy and clarification
+├── FAQ.md                       Frequently asked questions
+├── GLOSSARY.md                  Terms and definitions
+├── PROJECT_STRUCTURE.md          Repository structure overview
+├── LICENSE                      Apache 2.0 license
+├── ...                          Additional policy, research, and community docs
+├── logos/                       Brand asset files
+└── .github/                     Issue templates and repository automation
 ```
 
-## Related Repositories
+---
 
-- Brand assets & visual identity: [github.com/Celo-HT/Brand](https://github.com/Celo-HT/Brand)
-- Website: [github.com/Celo-HT/Website](https://github.com/Celo-HT/Website)
-- dApp: [github.com/Celo-HT/dApp](https://github.com/Celo-HT/dApp)
-- Smart Contracts: [github.com/Celo-HT/Smart-Contracts](https://github.com/Celo-HT/Smart-Contracts)
+## Related Projects
+
+- Website: https://github.com/Celo-HaiTi
+- Brand assets: https://github.com/Celo-HaiTi
+- Research and documentation repo: this repository
+
+> The exact linked repositories may vary over time. This repo is the canonical source of research, governance, and documentation for the initiative.
+
+---
 
 ## Contact
 
-contact@celoht.com ·  · [celoht.com](https://celoht.com)
+- Email: contact@celoht.com
+- Website: https://celoht.com
+- Repository: https://github.com/Celo-HaiTi/celoht-research
+
+---
+
+## License
+
+This project is licensed under the Apache 2.0 License. See [LICENSE](./LICENSE).
