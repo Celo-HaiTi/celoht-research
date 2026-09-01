@@ -7,7 +7,7 @@
 
 ## Overview
 
-USDm's stability is central to CeloHT's payment model (see the main documentation repository's `CUSD.md`). This area studies whether that stability holds up in practice for CeloHT's specific users and use cases, and how people actually perceive and use it.
+USDm's stability is central to CeloHT's payment model (see the main documentation repository's `USDm.md`). This area studies whether that stability holds up in practice for CeloHT's specific users and use cases, and how people actually perceive and use it.
 
 ## Research Questions
 
@@ -47,4 +47,4 @@ See [literature-review.md](./literature-review.md) *(to be developed)*.
 
 - [research/financial-inclusion/](../financial-inclusion/)
 - [research/celo/](../celo/)
-- Main documentation repository: `CUSD.md`
+- Main documentation repository: `USDm.md`

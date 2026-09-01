@@ -5,8 +5,8 @@
 | Environment | Purpose | Network |
 |---|---|---|
 | Local | Development | Hardhat local network |
-| Staging | Pre-release testing | Celo Alfajores (testnet) |
-| Production | Live | Celo Mainnet |
+| Staging | Pre-release testing | Celo Sepolia (testnet, chain ID 11142220) |
+| Production | Live | Celo Mainnet (chain ID 42220) |
 
 ## Website & dApp Deployment
 
@@ -24,8 +24,8 @@ npm run deploy:production
 Follows the mandatory process in [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-to-production) — audit and 90-day monitored testnet trial required before mainnet.
 
 ```bash
-# Testnet deployment (Alfajores)
-npx hardhat run scripts/deploy.js --network alfajores
+# Testnet deployment (Celo Sepolia)
+npx hardhat run scripts/deploy.js --network celo-sepolia
 
 # Mainnet deployment — requires Maintainer Council sign-off per GOVERNANCE.md
 npx hardhat run scripts/deploy.js --network celo

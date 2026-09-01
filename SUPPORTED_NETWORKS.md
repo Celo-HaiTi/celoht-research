@@ -8,7 +8,7 @@ CeloHT operates exclusively on the Celo blockchain and its standard network tier
 
 | Network | Chain ID | Purpose | Status |
 |---|---|---|---|
-| Celo Alfajores (testnet) | 44787 | Development, staging, agent training simulations | Active |
+| Celo Sepolia (testnet) | 11142220 | Development, staging, agent training simulations | Active |
 | Celo Mainnet | 42220 | Production | Live only after audit process (see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-to-production)) |
 
 ## RPC Endpoints
@@ -22,10 +22,10 @@ A multi-chain approach would increase attack surface, complicate the audit proce
 ## Network Configuration Reference
 
 ```
-Alfajores:
-  Chain ID: 44787
+Celo Sepolia:
+  Chain ID: 11142220
   Currency: CELO
-  Explorer: (public Celo Alfajores explorer)
+  Explorer: (public Celo Sepolia explorer)
 
 Mainnet:
   Chain ID: 42220
