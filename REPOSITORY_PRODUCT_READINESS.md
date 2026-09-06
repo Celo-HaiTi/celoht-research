@@ -17,7 +17,7 @@ The repository’s responsibility is to provide:
 The repository is primarily a markdown-driven documentation architecture:
 
 - root-level canonical reference documents
-- research and curriculum subfolders
+- research and curriculum materials currently stored at the repository root
 - policy and governance documentation
 - static validation and documentation quality checks
 
@@ -51,31 +51,37 @@ This repository references the wider CeloHT ecosystem for:
 
 This repo does not own the live operational integrations themselves.
 
-## Changes Made
+## Audit Findings
 
-- fixed stale `CUSD.md` references to `USDm.md`
-- replaced outdated `Alfajores` references with current Celo Sepolia guidance in active docs
-- corrected the docs repo’s network configuration examples to match the current Celo network model
-- updated developer guidance and SDK/CLI examples to the current canonical network terminology
-- validated the repo with its built-in documentation checks
+- The checkout contains documentation and policy files, but no application runtime,
+	contract source, deployment scripts, backend, indexer, or production API.
+- Several historical duplicate files and repository-specific configuration variants
+	are present at the root and require consolidation before they can be treated as
+	authoritative.
+- The built-in validator passes, but its link checker exempts many missing paths and
+	its configuration check scans `.github/`, which is absent from this checkout.
+- API, deployment, and production-network descriptions are specifications only and
+	must not be read as evidence of deployed services.
 
 ## Contradictions Found
 
-- stale links to a non-existent `CUSD.md` document
-- outdated network guidance using Alfajores as the active testnet
-- inconsistent naming between USDm and legacy CUSD terminology in active documentation
+- stale or duplicate repository-level documents and configuration variants
+- documentation that describes planned deployment/API behavior with production-looking
+	URLs or commands
+- inconsistent use of current USDm terminology and historical cUSD identifiers
+- readiness claims that were stronger than the files and validation scope supported
 
 ## Contradictions Resolved
 
-- all active broken doc links were corrected
-- active network references were aligned to Celo Sepolia and Mainnet
-- USDm terminology was normalized in current-state docs
+- This report now separates repository-level evidence from external ecosystem claims.
+- No external deployment, API, contract, Treasury, Safe, or production status is
+	asserted as verified by this repository.
 
 ## Network Status
 
-- Celo Sepolia: configured as the current test network reference in active docs
-- Celo Mainnet: referenced as production
-- Alfajores: treated as legacy/deprecated in active documentation
+- Celo Sepolia: current test-network reference in documentation
+- Celo Mainnet: planned production target; no deployment evidence is held here
+- Alfajores: historical/deprecated only where explicitly identified
 
 ## USDm Status
 
@@ -107,21 +113,25 @@ This repo does not own the live operational integrations themselves.
 
 ## Security Status
 
-- Repository-level security checks passed via the project validation script
-- No secrets or credentials were added
-- No live production or wallet credential handling is present
-- Status: LOW RISK FOR THIS DOCUMENTATION REPOSITORY
+- No secrets or credentials were added or exposed by this audit.
+- The repository contains policy and documentation, not live wallet or Treasury
+	authority. This is not an independent security audit of the wider ecosystem.
+- Status: IMPLEMENTED for repository documentation controls; wider ecosystem status
+	is outside this repository’s evidence boundary.
 
 ## Tests
 
 Validation run:
 
 - `bash validate.sh`
+- `STRICT_LINKS=1 bash validate.sh` (passes; planned directory references remain
+	visible warnings, while missing file targets fail)
 
 Result:
 
 - markdown fence check: PASS
-- internal link check: PASS
+- internal link check: PASS within the validator’s configured scope; missing-path
+	exemptions remain a validation limitation
 - no-token policy language check: PASS
 - YAML/JSON validity: PASS
 
@@ -143,10 +153,18 @@ Result:
 
 ## Remaining Blockers
 
-No fixable blocker remains in this repository for its documented responsibility as a research and documentation hub.
+- No dated evidence register currently substantiates external deployment, API,
+	contract, Treasury, agent, education, or reforestation claims.
+- The repository has no publication/dataset directory despite policy documents
+	referring to those structures.
+- Duplicate root-level files and repository-specific workflow/configuration variants
+	need maintainer decisions before safe deletion or consolidation.
 
 ## Final Product Readiness Status
 
-CONDITIONALLY READY
+IMPLEMENTED
 
-This repository is ready for its actual responsibility as a documentation and research repository, and it has passed the repo’s validation checks. It remains conditionally ready only because the live wallet, blockchain, and deployment responsibilities belong to other CeloHT repositories and are not implemented here.
+This status applies to the repository documentation foundation only. The repository is not
+PRODUCTION READY for an API, dApp, smart contracts, wallet, Treasury, backend,
+indexer, or other live service. External ecosystem capabilities remain PLANNED,
+BLOCKED, or UNKNOWN until dated evidence is linked.

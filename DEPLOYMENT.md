@@ -1,4 +1,9 @@
-# Deployment
+# Deployment Documentation
+
+> **Status: PLANNED.** This repository contains no application runtime, deployment
+> scripts, contract artifacts, backend, or production credentials. The procedures
+> below are governance guidance only and are not evidence that any service or
+> contract is deployed.
 
 ## Environments
 
@@ -6,17 +11,18 @@
 |---|---|---|
 | Local | Development | Hardhat local network |
 | Staging | Pre-release testing | Celo Sepolia (testnet, chain ID 11142220) |
-| Production | Live | Celo Mainnet (chain ID 42220) |
+| Production | Planned target | Celo Mainnet (chain ID 42220) |
 
 ## Website & dApp Deployment
 
-Deployed via CI/CD on merge to `main` (staging) with manual promotion to production, per [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#cicd).
+The intended deployment model is CI/CD for staging with explicit manual approval
+for production, per [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#cicd). No such
+deployment pipeline is implemented in this repository.
 
 ```bash
 # Staging (automatic on merge to main)
 # Production (manual promotion, requires approval)
-npm run build
-npm run deploy:production
+# Commands are examples for the owning application repository, not executable here.
 ```
 
 ## Smart Contract Deployment
@@ -25,10 +31,10 @@ Follows the mandatory process in [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-
 
 ```bash
 # Testnet deployment (Celo Sepolia)
-npx hardhat run scripts/deploy.js --network celo-sepolia
+# The owning smart-contract repository must provide and validate deployment scripts.
 
 # Mainnet deployment — requires Maintainer Council sign-off per GOVERNANCE.md
-npx hardhat run scripts/deploy.js --network celo
+# Mainnet deployment always requires explicit human approval and evidence.
 ```
 
 Deployment scripts must output the deployed contract address and transaction hash to a version-controlled deployment log, never left only in a deployer's local terminal history.

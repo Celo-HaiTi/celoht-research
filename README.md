@@ -1,8 +1,10 @@
-# CeloHT Research & Documentation
+# CeloHT Research
 
 CeloHT is a Haitian-led, open-source, community-governed initiative focused on financial inclusion, blockchain education, and sustainable development.
 
-This repository brings together the core research, governance, technical, and community documentation for the initiative.
+This repository is the CeloHT research and evidence workspace. It contains methodology,
+research templates, policy context, and supporting educational materials. It is not the
+source of truth for dApp code, smart contracts, administration, or a production API.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 [![No Token Policy](https://img.shields.io/badge/Token-None-critical)](./NO_TOKEN_POLICY.md)
@@ -43,17 +45,18 @@ CeloHT has no native token, no ICO, no presale, and no investment promise. See [
 | Contribute to the repo | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 | Browse the roadmap | [ROADMAP.md](./ROADMAP.md) |
 | Look up terminology | [GLOSSARY.md](./GLOSSARY.md) |
+| Check claim evidence and status | [EVIDENCE_REGISTER.md](./EVIDENCE_REGISTER.md) |
 
 ---
 
 ## Repository Scope
 
-This repository is the main documentation and research hub for the project. It includes:
+This repository is a research repository with supporting project context. It includes:
 
 - Strategic and institutional documents
 - Governance and policy materials
 - Research, impact, and methodology documents
-- Technical architecture and developer guidance
+- Technical architecture and developer guidance as research/context documents
 - Education and community-facing materials
 - Security, support, and contribution guidance
 
@@ -86,17 +89,18 @@ celoht-research/
 ├── PROJECT_STRUCTURE.md          Repository structure overview
 ├── LICENSE                      Apache 2.0 license
 ├── ...                          Additional policy, research, and community docs
-├── logos/                       Brand asset files
-└── .github/                     Issue templates and repository automation
+├── logos/                       Supporting brand assets used by documents
+└── validate.sh                  Local documentation validation
 ```
 
 ---
 
 ## Related Projects
 
-- Website: https://github.com/Celo-HaiTi
-- Brand assets: https://github.com/Celo-HaiTi
-- Research and documentation repo: this repository
+- Official organization: https://github.com/Celo-HaiTi
+- Research repository: https://github.com/Celo-HaiTi/celoht-research
+- dApp, admin, contracts, docs, website, and brand repositories are separate sources
+	of truth; this repository does not mirror their implementation.
 
 > The exact linked repositories may vary over time. This repo is the canonical source of research, governance, and documentation for the initiative.
 

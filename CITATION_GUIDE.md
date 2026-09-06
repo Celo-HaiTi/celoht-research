@@ -17,7 +17,7 @@
 
 ```
 CeloHT Research. (2026). Agent Network 90-Day Retention: Léogâne Pilot Cohort.
-CeloHT Research CHR-2026-AN-001. https://github.com/Celo-HT/celoht-research/publications/...
+CeloHT Research CHR-2026-AN-001. https://github.com/Celo-HaiTi/celoht-research/...
 ```
 
 ### BibTeX
@@ -29,7 +29,7 @@ CeloHT Research CHR-2026-AN-001. https://github.com/Celo-HT/celoht-research/publ
   institution  = {CeloHT},
   year         = {2026},
   number       = {CHR-2026-AN-001},
-  url          = {https://github.com/Celo-HT/celoht-research}
+  url          = {https://github.com/Celo-HaiTi/celoht-research}
 }
 ```
 

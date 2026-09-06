@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # validate.sh — local validation script for the CeloHT documentation repository.
-# Mirrors the checks run in .github/workflows/validate.yml so contributors
-# can catch issues before opening a PR. Run from the repository root:
+# Runs documentation checks against the files present in this repository.
+# Set STRICT_LINKS=1 to fail on missing file targets. Planned directory references
+# remain warnings until the corresponding research area is intentionally created.
 #   bash validate.sh
 
 set -uo pipefail
@@ -45,6 +46,7 @@ def is_placeholder_missing(path: str) -> bool:
     return last in placeholder_dirs or last.startswith('research') or last.startswith('template')
 
 broken = []
+deferred = []
 for f in files:
     try:
         content = open(f, encoding='utf-8').read()
@@ -63,6 +65,7 @@ for f in files:
         if candidate in all_files:
             continue
         if is_placeholder_missing(path):
+            deferred.append((f, link))
             continue
         looked_up = None
         for existing in all_files:
@@ -77,6 +80,18 @@ if broken:
     for f, link in broken:
         print(f"  - {f} -> {link}")
     sys.exit(1)
+if deferred:
+    print(f"WARNING: {len(deferred)} missing/deferred paths are currently exempted:")
+    for f, link in deferred[:25]:
+        print(f"  - {f} -> {link}")
+    deferred_files = []
+    for f, link in deferred:
+        path = link.split('#', 1)[0].rstrip('/')
+        if os.path.splitext(path)[1]:
+            deferred_files.append((f, link))
+    if os.environ.get('STRICT_LINKS') == '1' and deferred_files:
+        print('FAIL: STRICT_LINKS=1 does not permit missing file targets')
+        sys.exit(1)
 print(f"OK ({len(files)} files checked)")
 PYEOF
 if [ $? -ne 0 ]; then FAIL=1; fi
@@ -100,13 +115,13 @@ echo "=== 4. YAML/JSON config validity ==="
 python3 - <<'PYEOF'
 import yaml, json, glob, sys
 ok = True
-for f in glob.glob('.github/**/*.yml', recursive=True) + glob.glob('.github/**/*.yaml', recursive=True):
+for f in glob.glob('**/*.yml', recursive=True) + glob.glob('**/*.yaml', recursive=True):
     try:
         yaml.safe_load(open(f))
     except Exception as e:
         print(f"FAIL: {f}: {e}")
         ok = False
-for f in glob.glob('.github/**/*.json', recursive=True):
+for f in glob.glob('**/*.json', recursive=True):
     try:
         json.load(open(f))
     except Exception as e:

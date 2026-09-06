@@ -1,5 +1,9 @@
 # API Reference
 
+> **Status: PLANNED.** This repository contains no API server, backend, indexer,
+> database, or runtime health endpoint. The material below is a design specification
+> and must not be used as evidence that the listed services are live.
+
 > **Status: Under active development.** This describes the CeloHT API's intended design and currently published endpoint set. As the platform evolves, additional endpoints will be documented here — verify against the live API's `/health` response before integrating anything mission-critical.
 
 ## Overview
@@ -18,8 +22,8 @@ The CeloHT API lets developers integrate with community services, educational re
 ## Base URLs
 
 ```
-Production:  https://api.celoht.org/v1
-Development: https://dev-api.celoht.org/v1
+Production:  PLANNED — not deployed or verified
+Development: PLANNED — not deployed or verified
 ```
 
 ## Authentication

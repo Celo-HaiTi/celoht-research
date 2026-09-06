@@ -3,22 +3,20 @@
 ## Repository Map (Organization-Wide)
 
 ```
-github.com/Celo-HT/
+github.com/Celo-HaiTi/
 ├── CeloHT/                 Meta/wiki repository, high-level org profile
-├── Docs/                   This repository — full documentation
-├── Brand/                  Visual identity, logo, brand guidelines
-├── Website/                Marketing/education website (Next.js)
-├── dApp/                   Core transactional application (Next.js/React)
-├── Smart-Contracts/        Solidity contracts + Hardhat tooling
-├── SDK/                    @celoht/sdk package (see SDK.md)
-├── CLI/                    @celoht/cli package (see CLI.md)
+├── celoht-docs/            Official technical documentation
+├── celoht-brand/           Visual identity, logo, brand guidelines
+├── celoht-siteweb/         Public informational website
+├── celoht-dapp/            Core transactional application
+├── celoht-smart-contracts/ Solidity contracts and Hardhat tooling
 └── .github/                Org-wide default community health files
 ```
 
 ## This Repository's Structure
 
 ```
-Docs/
+Repository root/
 ├── README.md, WHITEPAPER.md, LITEPAPER.md, ...   Top-level reference docs
 ├── education/                                     Detailed curriculum modules
 │   └── module-01 ... module-08 ...md
@@ -33,7 +31,9 @@ Docs/
 
 ## Design Principle Behind This Structure
 
-Top-level `.md` files in the repository root are the **canonical reference** for each topic — kept concise and cross-linked. Deep operational detail (training syllabi, step-by-step manuals) lives in topic subfolders (`education/`, `agent-network/`) linked *from* the canonical file, so a newcomer can get oriented from the root README without being immediately overwhelmed, while depth is still fully available.
+Top-level files describe the current contents of this checkout. Planned research
+areas and operational subdirectories must not be treated as present until they are
+added with an owner, methodology, evidence source, and review status.
 
 ## Related Repository Structures
 

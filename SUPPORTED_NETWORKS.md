@@ -8,12 +8,14 @@ CeloHT operates exclusively on the Celo blockchain and its standard network tier
 
 | Network | Chain ID | Purpose | Status |
 |---|---|---|---|
-| Celo Sepolia (testnet) | 11142220 | Development, staging, agent training simulations | Active |
-| Celo Mainnet | 42220 | Production | Live only after audit process (see [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-to-production)) |
+| Celo Sepolia (testnet) | 11142220 | Intended development and staging reference | PLANNED |
+| Celo Mainnet | 42220 | Intended production target | BLOCKED pending applicable implementation, audit, governance, and deployment evidence |
 
 ## RPC Endpoints
 
-Developers should use their own RPC provider or a public Celo RPC endpoint; CeloHT does not operate a proprietary RPC service. See [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md#environment-variables) for configuration.
+Developers should use their own RPC provider or a public Celo RPC endpoint; CeloHT
+does not operate a proprietary RPC service. No RPC endpoint is configured by this
+repository.
 
 ## Why Not Multi-Chain
 
