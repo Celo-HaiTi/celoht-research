@@ -24,6 +24,20 @@ The project uses the Celo network as infrastructure for payments and digital acc
 
 CeloHT has no native token, no ICO, no presale, and no investment promise. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
+## Evidence Boundary and Claim Classification
+
+This repository is a research, policy, and documentation layer. It is not the source of truth for a live dApp, backend, indexer, admin console, database, treasury custody, or production smart-contract deployment.
+
+Important claims in this repo are classified as follows:
+
+- VERIFIED: the repository contains the documented evidence in this checkout (for example, governance policy, no-token policy, validation script, research methodology, and policy documents).
+- IMPLEMENTED: repository artifacts that exist here now, such as markdown documentation, validation tooling, and published policy docs.
+- PARTIALLY IMPLEMENTED: governance and architecture documents that describe target systems but are not backed by live code or deployment artifacts in this repo.
+- PLANNED: dApp, backend, indexer, admin, database, and contract deployment work described as future target state.
+- UNVERIFIED: anything involving live production deployment, live treasury custody, live contract addresses, or behavior outside this repository's direct evidence boundary.
+
+A full matrix is maintained in [CLAIMS_CLASSIFICATION.md](./CLAIMS_CLASSIFICATION.md).
+
 ---
 
 ## Start Here
@@ -76,21 +90,32 @@ celoht-research/
 ├── EDUCATION.md                  Education pillar
 ├── AGENT_NETWORK.md              Agent network pillar
 ├── REFORESTATION.md              Reforestation pillar
-├── ARCHITECTURE.md               System and technical architecture
+├── ARCHITECTURE.md               Planned/target architecture reference
 ├── DEVELOPER_GUIDE.md            Developer workflow and integration guidance
-├── API_REFERENCE.md             API documentation
-├── SMART_CONTRACTS.md           Smart contract documentation
-├── SECURITY.md                  Security policy and reporting
+├── API_REFERENCE.md              Planned API specification reference
+├── SMART_CONTRACTS.md            Reference contract specification
+├── SECURITY.md                   Security policy and reporting
 ├── CONTRIBUTING.md               Contribution guidance
-├── ROADMAP.md                   Roadmap and planned milestones
+├── ROADMAP.md                    Roadmap and planned milestones
 ├── NO_TOKEN_POLICY.md            Formal token policy and clarification
-├── FAQ.md                       Frequently asked questions
-├── GLOSSARY.md                  Terms and definitions
+├── FAQ.md                        Frequently asked questions
+├── GLOSSARY.md                   Terms and definitions
 ├── PROJECT_STRUCTURE.md          Repository structure overview
-├── LICENSE                      Apache 2.0 license
-├── ...                          Additional policy, research, and community docs
-├── logos/                       Supporting brand assets used by documents
-└── validate.sh                  Local documentation validation
+├── PRIVACY.md                    Privacy and data handling policy
+├── THREAT_MODEL.md               Security and threat model
+├── LICENSE                       Apache 2.0 license
+├── validate.sh                   Local documentation validation
+├── logos/                        Supporting brand assets used by documents
+├── module-01-financial-literacy-foundations.md
+├── module-02-web3-and-blockchain.md
+├── module-03-cusd-and-celo.md
+├── module-04-wallet-safety.md
+├── module-05-digital-security.md
+├── module-06-responsible-digital-finance.md
+├── module-07-using-the-agent-network.md
+├── module-08-developer-onboarding.md
+├── ...                           Additional policy, research, and community docs
+└── .codespaces/                  editor/runtime support files
 ```
 
 ---
