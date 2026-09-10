@@ -99,7 +99,7 @@ See "PARTNERS.md" (./PARTNERS.md#how-to-propose-a-partnership).
 Does CeloHT accept donations or grants?
 Yes. CeloHT may accept donations, grants, or other lawful forms of funding denominated in fiat or supported digital assets such as USDm, subject to applicable governance, treasury, legal, and reporting requirements. Funding should be transparently associated with its intended purpose or program where applicable.
 
-See "GOVERNANCE.md" (./GOVERNANCE.md#funding-governance).
+See "GOVERNANCE.md" (./GOVERNANCE.md#8-treasury-governance).
 
 Can companies or developers build on CeloHT?
 Yes. CeloHT is an open-source initiative and its public repositories, documentation, and infrastructure are intended to support transparent collaboration and ecosystem development. See "CONTRIBUTING.md" (./CONTRIBUTING.md).
@@ -136,7 +136,7 @@ CeloHT's architecture is designed so that personally identifiable information is
 
 Users should never submit private keys, seed phrases, or wallet passwords to CeloHT or any service claiming to represent CeloHT.
 
-See "LEGAL_STATUS.md" (./LEGAL_STATUS.md#privacy) and "SMART_CONTRACTS.md" (./SMART_CONTRACTS.md#design-principles).
+See "LEGAL_STATUS.md" (./LEGAL_STATUS.md#16-data-protection-commitment) and "SMART_CONTRACTS.md" (./SMART_CONTRACTS.md#design-principles).
 
 Can transactions on Celo be reversed by CeloHT?
 No. Blockchain transactions confirmed on the Celo network are not generally reversible by CeloHT. Users should carefully verify wallet addresses, amounts, network, and transaction details before signing.
