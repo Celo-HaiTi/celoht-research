@@ -2,13 +2,13 @@
 
 **The community health repository for the CeloHT GitHub organization.**
 
-This repository provides shared, organization-wide defaults so that every CeloHT repository — [CeloHT](https://github.com/Celo-HT/CeloHT), [celoht-research](https://github.com/Celo-HT/celoht-research), [Brand](https://github.com/Celo-HT/Brand), and any future repository — inherits a consistent, professional community experience without duplicating the same files everywhere.
+This repository provides shared, organization-wide defaults so that every CeloHT repository — [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [Brand](https://github.com/Celo-HaiTi/celoht-brand), and any future repository — inherits a consistent, professional community experience without duplicating the same files everywhere.
 
 ## What Lives Here
 
 | File / Folder | Purpose |
 |---|---|
-| [`profile/README.md`](./profile/README.md) | The README shown on [github.com/Celo-HT](https://github.com/Celo-HT) |
+| [`profile/README.md`](./profile/README.md) | The README shown on [github.com/Celo-HaiTi](https://github.com/Celo-HaiTi) |
 | [`ISSUE_TEMPLATE/`](./ISSUE_TEMPLATE/) | Default issue forms for any repository without its own |
 | [`DISCUSSION_TEMPLATE/`](./DISCUSSION_TEMPLATE/) | Default discussion category templates |
 | [`workflows/`](./workflows/) | Reusable GitHub Actions (welcome bot, stale-issue handling, link/markdown validation) |
@@ -31,7 +31,7 @@ GitHub automatically falls back to the files in this repository — `CODE_OF_CON
 
 ## Keeping This Repository and `CeloHT` in Sync
 
-The main [CeloHT](https://github.com/Celo-HT/CeloHT) documentation repository is the authoritative source for program, governance, and policy *detail* (`GOVERNANCE.md`, `NO_TOKEN_POLICY.md`, `SECURITY.md`, and so on). The files in this repository are intentionally shorter, org-wide-appropriate summaries that link back to that authoritative detail rather than duplicating it — see each file for its specific link-back. When something changes in the main documentation repository's governance or security policy, the corresponding summary here should be updated in the same pull request cycle, not left to drift.
+The main [CeloHT](https://github.com/Celo-HaiTi/CeloHT) documentation repository is the authoritative source for program, governance, and policy *detail* (`GOVERNANCE.md`, `NO_TOKEN_POLICY.md`, `SECURITY.md`, and so on). The files in this repository are intentionally shorter, org-wide-appropriate summaries that link back to that authoritative detail rather than duplicating it — see each file for its specific link-back. When something changes in the main documentation repository's governance or security policy, the corresponding summary here should be updated in the same pull request cycle, not left to drift.
 
 ## Contributing to This Repository
 

@@ -9,12 +9,12 @@ You don't need to write code to contribute meaningfully:
 | Contribution | Where |
 |---|---|
 | Fix a typo, clarify a sentence | Any repository — small doc PRs are always welcome |
-| Report a bug | [Open an issue](https://github.com/Celo-HT/CeloHT/issues/new/choose) using the Bug Report template |
+| Report a bug | [Open an issue](https://github.com/Celo-HaiTi/CeloHT/issues/new/choose) using the Bug Report template |
 | Suggest a feature | Open an issue using the Feature Request template |
 | Improve documentation | See the specific repository's `CONTRIBUTING.md` for its documentation standards |
-| Contribute research | See [celoht-research](https://github.com/Celo-HT/celoht-research)'s `CONTRIBUTING.md` |
+| Contribute research | See [celoht-research](https://github.com/Celo-HaiTi/celoht-research)'s `CONTRIBUTING.md` |
 | Translate content | See the main documentation repository's `TRANSLATION_GUIDE.md` |
-| Answer questions | Join [Discussions](https://github.com/orgs/Celo-HT/discussions) |
+| Answer questions | Join [Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) |
 | Write code | Follow the relevant repository's developer guide |
 
 ## Before You Start
@@ -38,9 +38,9 @@ You don't need to write code to contribute meaningfully:
 
 Each repository has its own detailed contributing guide with specifics relevant to that repository:
 
-- [CeloHT (docs)](https://github.com/Celo-HT/CeloHT/blob/main/CONTRIBUTING.md) — governance, technical, and program documentation
-- [celoht-research](https://github.com/Celo-HT/celoht-research/blob/main/CONTRIBUTING.md) — research contributions and peer review
-- [Brand](https://github.com/Celo-HT/Brand/blob/main/CONTRIBUTING.md) — brand asset and guideline contributions
+- [CeloHT (docs)](https://github.com/Celo-HaiTi/CeloHT/blob/main/CONTRIBUTING.md) — governance, technical, and program documentation
+- [celoht-research](https://github.com/Celo-HaiTi/celoht-research/blob/main/CONTRIBUTING.md) — research contributions and peer review
+- [Brand](https://github.com/Celo-HaiTi/celoht-brand/blob/main/CONTRIBUTING.md) — brand asset and guideline contributions
 
 This organization-wide guide applies as a baseline everywhere; a repository's own `CONTRIBUTING.md`, where present, adds detail specific to that repository and takes precedence on anything more specific.
 
@@ -58,4 +58,4 @@ Contributors are credited in each repository's `AUTHORS.md` as their work is mer
 
 ## Questions
 
-Open a [Discussion](https://github.com/orgs/Celo-HT/discussions) or see [SUPPORT.md](./SUPPORT.md).
+Open a [Discussion](https://github.com/Celo-HaiTi/CeloHT/discussions) or see [SUPPORT.md](./SUPPORT.md).

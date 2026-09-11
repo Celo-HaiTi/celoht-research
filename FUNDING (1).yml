@@ -7,7 +7,7 @@
 # would blur that line. Supported channels below are conventional,
 # fiat-denominated platforms only.
 
-github: [Celo-HT]
+github: [Celo-HaiTi]
 open_collective: celoht
 custom:
   - "https://celoht.com/donate"

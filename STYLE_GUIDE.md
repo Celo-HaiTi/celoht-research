@@ -48,7 +48,7 @@ Direct, precise, and unhurried. Avoid hedge-stacking (piling on qualifiers until
 
 ## Language
 
-English is the primary language for this repository, consistent with the main documentation repository's language policy. See [TRANSLATION_GUIDE.md](https://github.com/Celo-HT/CeloHT/blob/main/TRANSLATION_GUIDE.md) in that repository if translating research summaries for community use.
+English is the primary language for this repository, consistent with the main documentation repository's language policy. See [TRANSLATION_GUIDE.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/TRANSLATION_GUIDE.md) in that repository if translating research summaries for community use.
 
 ## Automatic Table of Contents
 

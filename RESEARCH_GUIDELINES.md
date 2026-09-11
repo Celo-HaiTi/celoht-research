@@ -46,7 +46,7 @@ Anyone — CeloHT maintainers, academic partners, independent researchers, and c
 
 ## Avoiding Duplication
 
-Before starting new work, check the relevant `research/<area>/README.md` and open [issues tagged `research`](https://github.com/Celo-HT/celoht-research/issues?q=label%3Aresearch) — duplicated effort is a worse outcome than a slower start.
+Before starting new work, check the relevant `research/<area>/README.md` and open [issues tagged `research`](https://github.com/Celo-HaiTi/celoht-research/issues?q=label%3Aresearch) — duplicated effort is a worse outcome than a slower start.
 
 ## Quality Bar
 

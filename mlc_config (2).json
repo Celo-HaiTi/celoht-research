@@ -2,8 +2,8 @@
   "ignorePatterns": [
     { "pattern": "^mailto:" },
     { "pattern": "^https://celoht.com" },
-    { "pattern": "^https://github.com/Celo-HT" },
-    { "pattern": "^https://github.com/orgs/Celo-HT" }
+    { "pattern": "^https://github.com/Celo-HaiTi" },
+    { "pattern": "^https://github.com/orgs/Celo-HaiTi" }
   ],
   "aliveStatusCodes": [200, 206, 301, 302, 403]
 }

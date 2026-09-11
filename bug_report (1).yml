@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug! Please check [existing issues](https://github.com/Celo-HT/CeloHT/issues) first to avoid duplicates.
+        Thanks for taking the time to report a bug! Please check [existing issues](https://github.com/Celo-HaiTi/CeloHT/issues) first to avoid duplicates.
 
   - type: input
     id: repository

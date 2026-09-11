@@ -9,7 +9,7 @@
 
 ## What is CeloHT?
 
-CeloHT (Celo-HT) is a Haitian-led, community-governed, open-source social-impact initiative focused on financial inclusion, blockchain education, and environmental sustainability in Haiti. It is built on the Celo blockchain ecosystem as an infrastructure choice — **CeloHT is not affiliated with Celo Foundation or Valora, is not a cryptocurrency, and is not an investment platform.**
+CeloHT is a Haitian-led, community-governed, open-source social-impact initiative focused on financial inclusion, blockchain education, and environmental sustainability in Haiti. It is built on the Celo blockchain ecosystem as an infrastructure choice — **CeloHT is not affiliated with Celo Foundation or Valora, is not a cryptocurrency, and is not an investment platform.**
 
 **No Token Policy:** CeloHT has no native token, no ICO, no presale, no staking token, no speculation model, and makes no investment promises. It uses only existing Celo network assets — USDm for payments, CELO for gas.
 
@@ -21,7 +21,7 @@ CeloHT is organized around three permanent pillars:
 | 🤝 **Agent Network** | Local, human support networks that help communities access digital financial tools |
 | 🌱 **Reforestation** | Sustainable development and environmental impact tied to community growth |
 
-Learn more: [celoht.com](https://celoht.com) · Documentation: [github.com/Celo-HT/CeloHT](https://github.com/Celo-HT/CeloHT)
+Learn more: [celoht.com](https://celoht.com) · Documentation: [github.com/Celo-HaiTi/CeloHT](https://github.com/Celo-HaiTi/CeloHT)
 
 ---
 
@@ -97,6 +97,6 @@ Brand documentation and original repository content are licensed under [MIT](./L
 - Email: contact@celoht.org · celoht3@gmail.com
 - Website: [celoht.com](https://celoht.com)
 - Facebook & Instagram: [@CeloHT / @celohtofficial](https://facebook.com/CeloHT)
-- Docs: [github.com/Celo-HT/CeloHT](https://github.com/Celo-HT/CeloHT)
+- Docs: [github.com/Celo-HaiTi/CeloHT](https://github.com/Celo-HaiTi/CeloHT)
 
 Founded by Johnny Dubic. Governed by the CeloHT community.

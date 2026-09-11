@@ -18,7 +18,7 @@ CeloHT's own operational standard already refuses to report "trees planted" with
 
 ## Objectives
 
-Produce a validated, region-specific planting and monitoring methodology before the program scales beyond the pilot — see [Phase 2 of the program roadmap](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md#phase-2--validation-2026-q4--2027-q1).
+Produce a validated, region-specific planting and monitoring methodology before the program scales beyond the pilot — see [Phase 2 of the program roadmap](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md#phase-2--validation-2026-q4--2027-q1).
 
 ## Current Knowledge
 

@@ -14,7 +14,7 @@
 
 | Space | Purpose |
 |---|---|
-| [GitHub Discussions](https://github.com/orgs/Celo-HT/discussions) | Technical questions, proposals, general discussion |
+| [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) | Technical questions, proposals, general discussion |
 | Discord | Developer collaboration, real-time chat |
 | Telegram | Community and agent coordination |
 | Social media | Public updates — see the Brand repository's `SOCIAL_MEDIA_GUIDE.md` |
@@ -43,7 +43,7 @@ Every CeloHT space is governed by the [Code of Conduct](./CODE_OF_CONDUCT.md), w
 
 ## Recognition
 
-Contributors are credited in each repository's `AUTHORS.md` as their work is merged — see the main documentation repository's [`AUTHORS.md`](https://github.com/Celo-HT/CeloHT/blob/main/AUTHORS.md).
+Contributors are credited in each repository's `AUTHORS.md` as their work is merged — see the main documentation repository's [`AUTHORS.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/AUTHORS.md).
 
 ## Questions
 

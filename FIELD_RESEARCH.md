@@ -31,7 +31,7 @@
 
 ## Compensating Participants
 
-Where participant time compensation is appropriate (e.g. a lengthy interview), it's modest, transparent, and paid in USDm consistent with [NO_TOKEN_POLICY.md](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md) — never structured as a reward tied to giving a particular answer.
+Where participant time compensation is appropriate (e.g. a lengthy interview), it's modest, transparent, and paid in USDm consistent with [NO_TOKEN_POLICY.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md) — never structured as a reward tied to giving a particular answer.
 
 ## After the Field
 

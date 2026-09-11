@@ -4,12 +4,12 @@
 
 **Financial inclusion, Web3 education, and reforestation — built openly, in Haiti, for Haiti.**
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/Celo-HT/CeloHT/blob/main/LICENSE)
-[![No Token Policy](https://img.shields.io/badge/Token-None-critical)](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md)
-[![Community Governed](https://img.shields.io/badge/Governance-Community-1B2A4A)](https://github.com/Celo-HT/CeloHT/blob/main/GOVERNANCE.md)
-[![Built on Celo](https://img.shields.io/badge/Built%20on-Celo-FCF6F1)](https://github.com/Celo-HT/CeloHT/blob/main/CELO.md)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/Celo-HaiTi/CeloHT/blob/main/LICENSE)
+[![No Token Policy](https://img.shields.io/badge/Token-None-critical)](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md)
+[![Community Governed](https://img.shields.io/badge/Governance-Community-1B2A4A)](https://github.com/Celo-HaiTi/CeloHT/blob/main/GOVERNANCE.md)
+[![Built on Celo](https://img.shields.io/badge/Built%20on-Celo-FCF6F1)](https://github.com/Celo-HaiTi/celoht-docs/blob/main/CELO.md)
 
-[Documentation](https://github.com/Celo-HT/CeloHT) · [Research](https://github.com/Celo-HT/celoht-research) · [Brand](https://github.com/Celo-HT/Brand) · [Website](https://celoht.com) · [Discussions](https://github.com/orgs/Celo-HT/discussions)
+[Documentation](https://github.com/Celo-HaiTi/CeloHT) · [Research](https://github.com/Celo-HaiTi/celoht-research) · [Brand](https://github.com/Celo-HaiTi/celoht-brand) · [Website](https://celoht.com) · [Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions)
 
 </div>
 
@@ -31,7 +31,7 @@ CeloHT is a Haitian-led, open-source, community-governed initiative founded in L
 
 Financial and Web3 literacy, built and delivered primarily in Haitian Creole. Understanding comes first — always.
 
-[Learn more →](https://github.com/Celo-HT/CeloHT/blob/main/EDUCATION.md)
+[Learn more →](https://github.com/Celo-HaiTi/celoht-docs/blob/main/EDUCATION.md)
 
 </td>
 <td width="33%" valign="top">
@@ -40,7 +40,7 @@ Financial and Web3 literacy, built and delivered primarily in Haitian Creole. Un
 
 Trained, verified local community members providing real human support for cash-to-digital conversion — because trust is built by people, not apps alone.
 
-[Learn more →](https://github.com/Celo-HT/CeloHT/blob/main/AGENT_NETWORK.md)
+[Learn more →](https://github.com/Celo-HaiTi/celoht-docs/blob/main/AGENT_NETWORK.md)
 
 </td>
 <td width="33%" valign="top">
@@ -49,7 +49,7 @@ Trained, verified local community members providing real human support for cash-
 
 Community-led tree planting with verified survival tracking, not just planting counts. A permanent pillar, not an offset.
 
-[Learn more →](https://github.com/Celo-HT/CeloHT/blob/main/REFORESTATION.md)
+[Learn more →](https://github.com/Celo-HaiTi/celoht-docs/blob/main/REFORESTATION.md)
 
 </td>
 </tr>
@@ -75,7 +75,7 @@ A Haiti — and over time, a wider Caribbean — where distance from a bank no l
 | **3. Growth** | 2027 | Expand beyond the pilot, dApp public beta |
 | **4. Maturity** | 2028+ | Governance decentralization, financial self-sustainability |
 
-Full detail, including honest status tracking against every milestone: [ROADMAP.md](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md)
+Full detail, including honest status tracking against every milestone: [ROADMAP.md](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md)
 
 </details>
 
@@ -83,19 +83,19 @@ Full detail, including honest status tracking against every milestone: [ROADMAP.
 
 | Repository | What it is |
 |---|---|
-| [**CeloHT**](https://github.com/Celo-HT/CeloHT) | Core governance, technical, and program documentation |
-| [**celoht-research**](https://github.com/Celo-HT/celoht-research) | Open, peer-reviewed research on our own programs |
-| [**Brand**](https://github.com/Celo-HT/Brand) | Visual identity, logo, and brand guidelines |
-| [**.github**](https://github.com/Celo-HT/.github) | You are here — community health files shared org-wide |
+| [**CeloHT**](https://github.com/Celo-HaiTi/CeloHT) | Core governance, technical, and program documentation |
+| [**celoht-research**](https://github.com/Celo-HaiTi/celoht-research) | Open, peer-reviewed research on our own programs |
+| [**Brand**](https://github.com/Celo-HaiTi/celoht-brand) | Visual identity, logo, and brand guidelines |
+| [**.github**](https://github.com/Celo-HaiTi/.github) | You are here — community health files shared org-wide |
 
 ## Get Involved
 
-- 🐛 **Found a bug or gap?** [Open an issue](https://github.com/Celo-HT/CeloHT/issues/new/choose) in the relevant repository
-- 💬 **Have a question?** [Start a discussion](https://github.com/orgs/Celo-HT/discussions)
+- 🐛 **Found a bug or gap?** [Open an issue](https://github.com/Celo-HaiTi/CeloHT/issues/new/choose) in the relevant repository
+- 💬 **Have a question?** [Start a discussion](https://github.com/Celo-HaiTi/CeloHT/discussions)
 - 🌍 **Want to contribute?** Read our [Contributing Guide](../CONTRIBUTING.md) — start with an issue tagged `good-first-issue`
-- 🔬 **Interested in research?** See [celoht-research](https://github.com/Celo-HT/celoht-research)
-- 🤝 **Represent a partner organization?** See [PARTNERS.md](https://github.com/Celo-HT/CeloHT/blob/main/PARTNERS.md)
-- 💛 **Want to support the mission financially?** See [FUNDING.yml](../FUNDING.yml) and [BUSINESS_MODEL.md](https://github.com/Celo-HT/CeloHT/blob/main/BUSINESS_MODEL.md) — no token, no crypto fundraising, ever
+- 🔬 **Interested in research?** See [celoht-research](https://github.com/Celo-HaiTi/celoht-research)
+- 🤝 **Represent a partner organization?** See [PARTNERS.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/PARTNERS.md)
+- 💛 **Want to support the mission financially?** See [FUNDING.yml](../FUNDING.yml) and [BUSINESS_MODEL.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/BUSINESS_MODEL.md) — no token, no crypto fundraising, ever
 
 ## Governance
 
@@ -107,7 +107,7 @@ Every CeloHT repository operates under the same [Code of Conduct](../CODE_OF_CON
 
 ## A Note on Trust
 
-If you see the CeloHT name attached to a token, a presale, or an investment offer anywhere — it's fraudulent. We have none of those, on principle, permanently. See our [No-Token Policy](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md) and report misuse to **security@celoht.com**.
+If you see the CeloHT name attached to a token, a presale, or an investment offer anywhere — it's fraudulent. We have none of those, on principle, permanently. See our [No-Token Policy](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md) and report misuse to **security@celoht.com**.
 
 ---
 

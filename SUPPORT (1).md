@@ -4,19 +4,19 @@
 
 | Need | Where |
 |---|---|
-| General question about CeloHT | [GitHub Discussions](https://github.com/orgs/Celo-HT/discussions) |
+| General question about CeloHT | [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) |
 | Bug report | Open an issue in the relevant repository using the Bug Report template |
 | Documentation gap | Open an issue using the Documentation template |
 | Security vulnerability | **security@celoht.com** — see [SECURITY.md](./SECURITY.md), never a public issue |
-| Partnership inquiry | See the main documentation repository's [`PARTNERS.md`](https://github.com/Celo-HT/CeloHT/blob/main/PARTNERS.md) |
+| Partnership inquiry | See the main documentation repository's [`PARTNERS.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/PARTNERS.md) |
 | Press/media inquiry | contact@celoht.com |
 | Code of Conduct concern | conduct@celoht.com |
 
 ## Before You Ask
 
 1. Check the relevant repository's `FAQ.md` — many common questions are already answered
-2. Search existing [issues](https://github.com/Celo-HT/CeloHT/issues) and [discussions](https://github.com/orgs/Celo-HT/discussions)
-3. Check the [Glossary](https://github.com/Celo-HT/CeloHT/blob/main/GLOSSARY.md) if a term is unfamiliar
+2. Search existing [issues](https://github.com/Celo-HaiTi/CeloHT/issues) and [discussions](https://github.com/Celo-HaiTi/CeloHT/discussions)
+3. Check the [Glossary](https://github.com/Celo-HaiTi/celoht-docs/blob/main/GLOSSARY.md) if a term is unfamiliar
 
 ## Response Times
 
@@ -24,7 +24,7 @@ CeloHT is a community-driven, volunteer-heavy project. General questions typical
 
 ## Community Spaces
 
-- [GitHub Discussions](https://github.com/orgs/Celo-HT/discussions) — questions, ideas, general conversation
+- [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) — questions, ideas, general conversation
 - Discord, Telegram, and social channels — see the main documentation repository's `COMMUNITY.md` for current links
 
 ## A Note on Impersonation
@@ -33,4 +33,4 @@ CeloHT never asks for your seed phrase, private key, or wallet password through 
 
 ## Supporting CeloHT
 
-Looking to support rather than request support? See [FUNDING.yml](./FUNDING.yml) and the main documentation repository's [`BUSINESS_MODEL.md`](https://github.com/Celo-HT/CeloHT/blob/main/BUSINESS_MODEL.md).
+Looking to support rather than request support? See [FUNDING.yml](./FUNDING.yml) and the main documentation repository's [`BUSINESS_MODEL.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/BUSINESS_MODEL.md).

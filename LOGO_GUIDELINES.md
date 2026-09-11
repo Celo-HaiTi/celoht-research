@@ -73,7 +73,7 @@ The logo **may not** be used:
 - On any product, token, or investment offering
 - In any material suggesting Celo Foundation or Valora operates or endorses CeloHT
 
-If you are unsure whether your use case is covered, open an issue at [github.com/Celo-HT/CeloHT](https://github.com/Celo-HT/CeloHT) or email contact@celoht.org.
+If you are unsure whether your use case is covered, open an issue at [github.com/Celo-HaiTi/CeloHT](https://github.com/Celo-HaiTi/CeloHT) or email contact@celoht.org.
 
 ---
 

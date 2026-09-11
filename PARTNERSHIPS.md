@@ -1,7 +1,7 @@
 # CeloHT Partnerships Policy
 
 **Document Type:** Governance Policy
-**Applies To:** CeloHT (Celo-HT) and all affiliated repositories under github.com/Celo-HT
+**Applies To:** CeloHT and all affiliated repositories in the Celo-HaiTi GitHub organization
 **License:** Apache 2.0 (this document, unless otherwise noted)
 **Status:** Active
 **Version:** 1.0.0

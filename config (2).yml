@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: General Question
-    url: https://github.com/Celo-HT/CeloHT/discussions
+    url: https://github.com/Celo-HaiTi/CeloHT/discussions
     about: For general questions, use the CeloHT documentation repository's Discussions tab.
   - name: Security Concern
     url: mailto:contact@celoht.org

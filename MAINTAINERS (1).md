@@ -2,11 +2,11 @@
 
 ## Foundation Director
 
-**Johnny Dubic** — see the main documentation repository's [`FOUNDER.md`](https://github.com/Celo-HT/CeloHT/blob/main/FOUNDER.md).
+**Johnny Dubic** — see the main documentation repository's [`FOUNDER.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/FOUNDER.md).
 
 ## Maintainer Council
 
-Council membership is tracked per-repository (each repository's own `MAINTAINERS.md` or GitHub team settings, since membership can shift faster than an org-wide document could stay accurate). See the main documentation repository's [`MAINTAINERS.md`](https://github.com/Celo-HT/CeloHT/blob/main/MAINTAINERS.md) for the current model in full detail, and [`AUTHORS.md`](https://github.com/Celo-HT/CeloHT/blob/main/AUTHORS.md) for contributor recognition.
+Council membership is tracked per-repository (each repository's own `MAINTAINERS.md` or GitHub team settings, since membership can shift faster than an org-wide document could stay accurate). See the main documentation repository's [`MAINTAINERS.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/MAINTAINERS.md) for the current model in full detail, and [`AUTHORS.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/AUTHORS.md) for contributor recognition.
 
 ## What Maintainers Do
 
@@ -23,7 +23,7 @@ There's no fixed application form. Council nomination follows sustained, high-qu
 
 - Respond to assigned reviews within a reasonable window (target: two weeks)
 - Disclose any conflict of interest and recuse from the relevant decision
-- Uphold CeloHT's core commitments in every review — particularly, never approving language that implies CeloHT is a token, investment, or speculative opportunity (see [`NO_TOKEN_POLICY.md`](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md))
+- Uphold CeloHT's core commitments in every review — particularly, never approving language that implies CeloHT is a token, investment, or speculative opportunity (see [`NO_TOKEN_POLICY.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md))
 
 ## Stepping Down
 

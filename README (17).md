@@ -3,7 +3,7 @@
 **The official research library of the CeloHT ecosystem — financial inclusion, blockchain education, and reforestation, studied openly.**
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
-[![No Token Policy](https://img.shields.io/badge/Token-None-critical)](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md)
+[![No Token Policy](https://img.shields.io/badge/Token-None-critical)](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md)
 [![Open Science](https://img.shields.io/badge/Open%20Science-Committed-1B2A4A)](./OPEN_SCIENCE.md)
 
 ---
@@ -29,7 +29,7 @@ A research library credible enough that a university, an NGO, or a government ev
 3. **Reproducibility as a requirement, not an aspiration.** See [REPRODUCIBILITY.md](./REPRODUCIBILITY.md).
 4. **Honest about uncertainty.** Every study reports its limitations as prominently as its findings.
 5. **Community-legible.** Research here should be usable by a policy analyst, a developer, and a community organizer alike — not written only for peer academics.
-6. **No conflict with the No-Token Policy.** No research output may be used to imply CeloHT is, or should become, an investment or token-issuing entity — see [NO_TOKEN_POLICY.md](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md) in the main documentation repository.
+6. **No conflict with the No-Token Policy.** No research output may be used to imply CeloHT is, or should become, an investment or token-issuing entity — see [NO_TOKEN_POLICY.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md) in the main documentation repository.
 
 ## Repository Structure
 
@@ -105,9 +105,9 @@ Proposal → [Research Guidelines](./RESEARCH_GUIDELINES.md) → data collection
 
 ## Relationship to Other CeloHT Repositories
 
-- **[celoht-docs](https://github.com/Celo-HT/CeloHT)** — governance, technical, and program documentation (the "what and how")
+- **[celoht-docs](https://github.com/Celo-HaiTi/CeloHT)** — governance, technical, and program documentation (the "what and how")
 - **celoht-research** (this repository) — the evidence base (the "does it work, and how do we know")
-- **[Brand](https://github.com/Celo-HT/Brand)** — visual identity and brand guidelines
+- **[Brand](https://github.com/Celo-HaiTi/celoht-brand)** — visual identity and brand guidelines
 
 Research findings here inform program design documented in celoht-docs; they don't duplicate it.
 
@@ -117,4 +117,4 @@ Research content is licensed under [Apache 2.0](./LICENSE), consistent with Celo
 
 ## Contact
 
-research@celoht.com for research-specific inquiries · see [CONTACT.md](https://github.com/Celo-HT/CeloHT/blob/main/CONTACT.md) in the main documentation repository for all other channels.
+research@celoht.com for research-specific inquiries · see [CONTACT.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/CONTACT.md) in the main documentation repository for all other channels.

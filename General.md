@@ -17,5 +17,5 @@ looking for an answer).
 <!--
 Reminder: CeloHT has no token and is not an investment platform. Please
 keep discussion consistent with our No-Token Policy —
-https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md
+https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md
 -->

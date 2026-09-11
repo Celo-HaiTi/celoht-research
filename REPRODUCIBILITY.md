@@ -27,7 +27,7 @@ research/<area>/findings/<study-slug>/
 
 ## What "Reproducible" Does Not Mean Here
 
-It doesn't mean every study must be a randomized controlled trial — a lot of CeloHT's early research is necessarily descriptive and exploratory, given program maturity (see [ROADMAP.md](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md) in the main documentation repository). Reproducibility here means: *given the same data and the same documented method, another researcher gets the same result* — not that every study meets the evidentiary bar of a clinical trial.
+It doesn't mean every study must be a randomized controlled trial — a lot of CeloHT's early research is necessarily descriptive and exploratory, given program maturity (see [ROADMAP.md](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md) in the main documentation repository). Reproducibility here means: *given the same data and the same documented method, another researcher gets the same result* — not that every study meets the evidentiary bar of a clinical trial.
 
 ## Handling Non-Reproducible Legacy Findings
 

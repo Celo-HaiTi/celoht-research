@@ -17,13 +17,13 @@ We ask security researchers to give CeloHT a reasonable window — typically **9
 
 ## Scope
 
-This policy covers all repositories in the CeloHT GitHub organization: [CeloHT](https://github.com/Celo-HT/CeloHT), [celoht-research](https://github.com/Celo-HT/celoht-research), [Brand](https://github.com/Celo-HT/Brand), and this `.github` repository.
+This policy covers all repositories in the CeloHT GitHub organization: [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [Brand](https://github.com/Celo-HaiTi/celoht-brand), and this `.github` repository.
 
-For the full threat model and incident-response process, see the main documentation repository's [`THREAT_MODEL.md`](https://github.com/Celo-HT/CeloHT/blob/main/THREAT_MODEL.md) and [`INCIDENT_RESPONSE.md`](https://github.com/Celo-HT/CeloHT/blob/main/INCIDENT_RESPONSE.md).
+For the full threat model and incident-response process, see the main documentation repository's [`THREAT_MODEL.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/THREAT_MODEL.md) and [`INCIDENT_RESPONSE.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/INCIDENT_RESPONSE.md).
 
 ## Brand Misuse Is a Security Issue
 
-Because CeloHT operates in the financial-inclusion space, fraudulent use of the CeloHT name or logo — fake tokens, phishing sites, impersonation accounts — is treated as a **security priority**, not just a trademark matter. Report any such misuse to security@celoht.com immediately. See the main documentation repository's [`NO_TOKEN_POLICY.md`](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md).
+Because CeloHT operates in the financial-inclusion space, fraudulent use of the CeloHT name or logo — fake tokens, phishing sites, impersonation accounts — is treated as a **security priority**, not just a trademark matter. Report any such misuse to security@celoht.com immediately. See the main documentation repository's [`NO_TOKEN_POLICY.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md).
 
 ## Supported Versions
 
@@ -35,7 +35,7 @@ CeloHT never asks for your seed phrase, private key, or wallet password, through
 
 ## Smart Contract Security
 
-Smart contract code is only deployed to mainnet after independent third-party audit and a monitored testnet trial — see the main documentation repository's [`SMART_CONTRACTS.md`](https://github.com/Celo-HT/CeloHT/blob/main/SMART_CONTRACTS.md#path-to-production).
+Smart contract code is only deployed to mainnet after independent third-party audit and a monitored testnet trial — see the main documentation repository's [`SMART_CONTRACTS.md`](https://github.com/Celo-HaiTi/celoht-docs/blob/main/SMART_CONTRACTS.md#path-to-production).
 
 ## Questions
 

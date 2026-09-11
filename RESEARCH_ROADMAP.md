@@ -9,7 +9,7 @@
 
 ## Phase 1 — Foundations (2026 Q2–Q3)
 
-Aligned with [Phase 1 of the program roadmap](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md#phase-1--foundation-2026-q2q3).
+Aligned with [Phase 1 of the program roadmap](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md#phase-1--foundation-2026-q2q3).
 
 | Research priority | Area | Status |
 |---|---|---|
@@ -20,7 +20,7 @@ Aligned with [Phase 1 of the program roadmap](https://github.com/Celo-HT/CeloHT/
 
 ## Phase 2 — Validation Research (2026 Q4 – 2027 Q1)
 
-Aligned with [Phase 2 of the program roadmap](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md#phase-2--validation-2026-q4--2027-q1).
+Aligned with [Phase 2 of the program roadmap](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md#phase-2--validation-2026-q4--2027-q1).
 
 | Research priority | Area | Status |
 |---|---|---|
@@ -31,7 +31,7 @@ Aligned with [Phase 2 of the program roadmap](https://github.com/Celo-HT/CeloHT/
 
 ## Phase 3 — Growth Research (2027)
 
-Aligned with [Phase 3 of the program roadmap](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md#phase-3--growth-2027).
+Aligned with [Phase 3 of the program roadmap](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md#phase-3--growth-2027).
 
 | Research priority | Area | Status |
 |---|---|---|
@@ -42,7 +42,7 @@ Aligned with [Phase 3 of the program roadmap](https://github.com/Celo-HT/CeloHT/
 
 ## Phase 4 — Maturity Research (2028+)
 
-Aligned with [Phase 4 of the program roadmap](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md#phase-4--maturity-2028).
+Aligned with [Phase 4 of the program roadmap](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md#phase-4--maturity-2028).
 
 | Research priority | Area | Status |
 |---|---|---|

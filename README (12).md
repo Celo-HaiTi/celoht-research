@@ -39,7 +39,7 @@ See [methodology.md](./methodology.md) for area-specific method notes, building 
 
 ## Limitations
 
-Early-stage program data reflects a single pilot community (Léogâne) — findings from this stage should not be assumed to generalize until validated in additional regions, consistent with [Phase 3 of the program roadmap](https://github.com/Celo-HT/CeloHT/blob/main/ROADMAP.md#phase-3--growth-2027).
+Early-stage program data reflects a single pilot community (Léogâne) — findings from this stage should not be assumed to generalize until validated in additional regions, consistent with [Phase 3 of the program roadmap](https://github.com/Celo-HaiTi/CeloHT/blob/main/ROADMAP.md#phase-3--growth-2027).
 
 ## Future Work
 
