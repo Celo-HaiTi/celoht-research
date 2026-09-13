@@ -237,7 +237,7 @@ graph TD
 
 ### 7.1 Valora Integration
 
-Valora is CeloHT's primary recommended wallet for learners and agents who want full wallet functionality: phone-number-based address resolution, in-app USDm balance visibility, and a mature, audited mobile application.
+Valora is one compatible wallet option for learners and agents who want full wallet functionality, available through WalletConnect. CeloHT remains wallet-agnostic and also supports MiniPay when its injected provider is available, as well as other compatible wallets through WalletConnect or another supported integration.
 
 ### 7.2 MiniPay Integration
 

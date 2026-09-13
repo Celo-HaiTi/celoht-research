@@ -10,7 +10,7 @@ The CeloHT dApp is the core transactional interface connecting users, agents, an
 
 ### New User Onboarding
 1. Landing screen with plain-language explanation of what CeloHT is (and the No-Token Policy)
-2. Wallet connection (Valora) — see [Wallet Connection](#wallet-connection)
+2. Wallet connection — see [Wallet Connection](#wallet-connection)
 3. Optional guided education mini-module before first transaction
 4. Nearest verified agent lookup (for cash-in) or direct payment flow
 
@@ -32,7 +32,9 @@ The CeloHT dApp is the core transactional interface connecting users, agents, an
 
 ## Wallet Connection
 
-- **Valora:** WalletConnect-based integration
+- **MiniPay:** supported when the dApp is opened inside MiniPay and the injected provider is available.
+- **Valora:** supported through WalletConnect.
+- **Other compatible wallets:** supported through WalletConnect or another supported wallet integration.
 
 ## Dashboards
 
