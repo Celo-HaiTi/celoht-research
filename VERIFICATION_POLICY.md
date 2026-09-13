@@ -2,7 +2,7 @@
 
 **Version 1.0 · August 2026**
 
-This document defines how CeloHT verifies the identity and public presence of individuals holding roles of trust or authority (Governance Council members, Maintainers, Working Group Leads, Ambassadors). It exists to close the gap between "a name appears in project documentation" and "that name is a verifiable, accountable individual" — a distinction that matters directly to investors, grant reviewers, auditors, and partners conducting due diligence.
+This document defines how CeloHT verifies the identity and public presence of individuals named in roles of trust or authority, including the Founder, Governance Council members, Maintainers, Working Group Leads, and Ambassadors. Verification is evidence-based, objective, transparent about its limits, reproducible, and auditable. A role or designation is **Pending Verification** unless the required evidence is actually documented; CeloHT never fabricates evidence or institutional confirmation.
 
 ---
 
@@ -19,11 +19,13 @@ This document defines how CeloHT verifies the identity and public presence of in
 
 ## 1. Identity Verification Requirements
 
-Before an individual is published in `TEAM.md` or `MAINTAINERS.md` with a status other than "Open," "Vacant," or "TBA," CeloHT requires:
+Before an individual is published in `TEAM.md`, `FOUNDER.md`, or `MAINTAINERS.md` with a status of "Verified," CeloHT requires:
 
 - Confirmation, directly from the individual, of the name or handle they wish to be publicly associated with their role.
 - Confirmation that the individual is a real, identifiable person actively performing the responsibilities of the role in question.
-- Where the role carries treasury, security, or Governance Council authority, at least one additional verification step (for example, a live video confirmation with an existing Council member, or an equivalent method adopted by the Governance Council) before the role is confirmed as "Verified."
+- Where the role carries treasury, security, or Governance Council authority, at least one additional independently auditable verification step before the role is confirmed as "Verified." While the Council is pending formation, that step and its approving body are **To Be Established**; no nonexistent Council confirmation is implied.
+
+For the Founder designation, acceptable evidence may include consistent official CeloHT documentation, official repository history, consistent public identity, historical founding evidence, and legitimate public profiles. These sources must be recorded sufficiently for an independent reviewer to reproduce the conclusion. A public claim alone is not enough.
 
 CeloHT does not consider a role "Verified" based solely on a self-submitted claim. Until the applicable verification step is complete, the individual's status is recorded as "Pending Verification," and this is disclosed openly rather than presented as complete.
 

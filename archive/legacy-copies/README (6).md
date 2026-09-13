@@ -1,9 +1,11 @@
 # Governance Research
 
+> **Historical/archive note:** This legacy copy describes an earlier, superseded governance model. It is preserved for research history and is not current CeloHT policy. The canonical current model is documented in [`GOVERNANCE.md`](../../GOVERNANCE.md).
+
 **Summary:** Research on CeloHT's community governance model and its effectiveness compared to alternatives.
-**Purpose:** Test whether CeloHT's Foundation Director → Maintainer Council → Community Contributors model actually functions as intended.
+**Purpose:** Test whether the historical Foundation Director → Maintainer Council → Community Contributors model actually functioned as intended.
 **Scope:** Decision-making effectiveness, community participation, comparative governance-model research.
-**Audience:** Maintainer Council, researchers, governance-focused partners.
+**Audience:** Historical Maintainer Council references, researchers, governance-focused partners.
 
 ## Overview
 
@@ -17,7 +19,7 @@ CeloHT deliberately chose participation-based governance over token-weighted vot
 
 ## Objectives
 
-Give the Maintainer Council evidence to refine governance as CeloHT scales, rather than assuming the current design will keep working unchanged.
+Give researchers evidence to assess the historical model, rather than treating its roles as current CeloHT governance.
 
 ## Current Knowledge
 

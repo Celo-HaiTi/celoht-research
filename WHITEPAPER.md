@@ -1308,7 +1308,7 @@ No. CeloHT has no token, has never conducted a token sale, and is not an investm
 Not as of this document's date. CeloHT does not hold nonprofit, charitable, or tax-exempt status in any jurisdiction. See `LEGAL_STATUS.md` Section 3.
 
 **Who controls CeloHT?**
-No individual. CeloHT is governed by a Governance Council, Working Groups, and a public proposal process. The Founder holds one vote among several and no unilateral treasury or governance authority. See `GOVERNANCE.md` Section 3 and Section 14 of this whitepaper.
+No individual. CeloHT is governed through transparent public proposals and collective decision-making. Governance Council formation is pending, and no Founder seat, vote, veto, emergency override, or unilateral treasury or governance authority exists. See `GOVERNANCE.md` Section 3 and Section 14 of this whitepaper.
 
 **Does CeloHT plan to launch a token in the future?**
 No. The non-token design is foundational to CeloHT's mission and legal posture, not a temporary phase. See Section 5.5 and `NO_TOKEN_POLICY.md`.

@@ -6,6 +6,10 @@ This document defines how the CeloHT project is governed. It applies to every co
 
 CeloHT is an open-source, community-driven, non-token initiative built on the Celo blockchain. CeloHT is **not** a DAO, **not** a cryptocurrency, **not** an investment product, and **not** a token project. CeloHT uses existing Celo-network stablecoin infrastructure (USDm) and wallet tooling (Valora, MiniPay) strictly as **payment rails for financial-inclusion education and community operations** — never as a governance mechanism, security, or speculative instrument. Nothing in this document, and nothing CeloHT does, should be interpreted as an offer of securities, a promise of financial return, or participation in a token-based voting system.
 
+**Canonical governance principle:** CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. An individual may submit or initiate a proposal and participate in deliberation, but a proposal is not an official CeloHT decision until the documented collective process is complete and the outcome is recorded. No individual, including the Founder, may unilaterally establish, approve, reject, override, or represent a proposal as an official CeloHT decision outside that process.
+
+Where a Council, role, threshold, election, or implementation detail has not yet been formally established, its status is **To Be Established** or **Pending Formation**. This document does not imply that an unfilled role or uncompleted process already exists.
+
 ---
 
 ## Table of Contents
@@ -79,7 +83,7 @@ All governance decisions, budgets, votes, and meeting notes are published in pub
 
 ### 2.2 Accountability
 
-Every role in CeloHT has a named, published set of responsibilities and a defined process for review or removal. Authority without accountability is not permitted anywhere in the structure — including the Founder role, which is itself subject to Governance Council oversight as described in Section 3.
+Every role in CeloHT has a named, published set of responsibilities and a defined process for review or removal. Authority without accountability is not permitted anywhere in the structure. Founder status is separate from ongoing governance authority and does not create executive authority, a special approval path, or an exemption from the collective process.
 
 ### 2.3 Inclusiveness
 
@@ -128,23 +132,13 @@ graph TD
 
 ### 3.1 Founder
 
-The Founder role exists to preserve institutional memory, mission continuity, and initial technical direction during CeloHT's early years. The Founder:
+**Johnny Dubic — Founder of CeloHT.** Founder status is permanently recognized as CeloHT's founding and institutional designation. It preserves founding history, mission origins, institutional continuity, and historical context; it is separate from ongoing governance authority.
 
-- May initiate proposals like any other eligible participant, but does **not** hold unilateral veto power over Governance Council decisions once the Council reaches a quorum-based vote.
-- Holds one seat on the Governance Council, with one vote, equal in weight to every other Council member on ordinary matters.
-- Retains a limited, publicly documented "founder safeguard" solely for emergency decisions defined in Section 4.4, which automatically expire and require Council ratification within 14 days.
-- Is subject to the same Conflict of Interest, Ethics, and Recusal rules as every other role.
-
-The Founder safeguard exists to prevent governance paralysis during CeloHT's early growth phase and is designed to sunset as the Governance Council matures (see Section 21, Annual Governance Review).
+The Founder may submit proposals, participate in public discussion, provide historical or technical context, and contribute under the same documented rules as any other participant. Founder status does **not** automatically confer executive authority, Governance Council membership, a Council seat or vote, special voting rights, veto power, a Founder safeguard, emergency powers, repository control, or unilateral authority. The Founder cannot make a personal proposal an official CeloHT decision without the required collective governance process.
 
 ### 3.2 Governance Council
 
-The Governance Council is CeloHT's highest ongoing decision-making body for strategic, treasury, and governance-amendment matters.
-
-- **Size:** 5–9 seats, odd-numbered to avoid tie votes where possible.
-- **Composition:** Elected representatives from active Working Groups, plus the Founder seat, plus at-large community-elected seats (see Section 16).
-- **Term:** 12 months, renewable, with staggered elections so no more than half the Council turns over at once.
-- **Authority:** Approves strategic and treasury proposals, ratifies emergency decisions, appoints Working Group leads pending community confirmation, and approves amendments to this document.
+The Governance Council is a proposed collective body for strategic, treasury, and governance-amendment matters. **Council formation is pending; no Council members or seats are currently confirmed in this repository.** Its composition, size, terms, election process, authority, and decision thresholds are **To Be Established** through a public proposal and collective approval. The Founder is not automatically assigned a Council seat or vote.
 
 ### 3.3 Maintainers
 
@@ -182,7 +176,7 @@ Anyone who uses CeloHT educational material, participates in forums, or engages 
 
 | Role | Appointed by | Core Responsibility | Term | Removal Process |
 |---|---|---|---|---|
-| Founder | N/A (originating role) | Mission continuity, emergency safeguard | Ongoing, reviewed annually | Governance Council 2/3 vote (Section 16.4) |
+| Founder | N/A (originating role) | Founding history, mission continuity, institutional context, community participation | Ongoing, permanently recognized as a historical designation | Not an elected or appointed governance seat |
 | Governance Council | Election (Section 16) | Strategic, treasury, governance decisions | 12 months | Recall vote or resignation |
 | Maintainers | Governance Council | Code review, releases, security triage | Ongoing, reviewed every 6 months | Council majority vote or inactivity policy |
 | Working Group Lead | Council confirmation | Operational execution within charter | 6–12 months | Council majority vote |
@@ -204,7 +198,7 @@ CeloHT classifies every decision into one of four categories. The category deter
 | **Operational** | Merging a typo fix, scheduling a community call | Maintainers / Working Group Lead | GitHub commit or issue |
 | **Technical** | Adopting a new library, changing a smart-contract interface | Maintainers + relevant Working Group, RFC required | RFC + PR |
 | **Strategic** | New pillar initiative, major partnership, annual roadmap | Governance Council vote | Council meeting notes + published proposal |
-| **Emergency** | Security incident, treasury freeze, safety issue | Founder safeguard or Council quorum of available members | Incident report within 72 hours, full Council ratification within 14 days |
+| **Emergency** | Security incident, treasury freeze, safety issue | Minimum necessary containment by the responsible technical role, followed by documented collective review | Incident report and review process; emergency governance authority is To Be Established |
 
 ### 4.2 Operational Decisions
 
@@ -220,12 +214,7 @@ Strategic decisions — new pillars, major roadmap shifts, treasury commitments 
 
 ### 4.5 Emergency Decisions
 
-Emergency decisions apply only to situations posing an immediate risk to user funds, contributor safety, or system integrity (e.g., an active smart-contract exploit). Emergency authority is deliberately narrow:
-
-1. Any Maintainer or Council member may declare an emergency and take the minimum necessary containment action (e.g., pausing a contract function, revoking a compromised credential).
-2. The Founder safeguard may be used only if a Council quorum cannot be reached within 4 hours.
-3. All emergency actions must be reported publicly within 72 hours and formally ratified — or reversed — by full Council vote within 14 days.
-4. Repeated or unjustified use of emergency authority is grounds for role review under Section 3.9.
+Emergency handling is limited to the minimum technical or safety containment necessary to protect users, contributors, or system integrity. A person taking containment action does not thereby acquire governance authority, treasury authority, or authority to decide the underlying policy. The action, reason, scope, responsible role, and follow-up review must be documented publicly as soon as safely possible. A collective emergency review and ratification procedure is **To Be Established**; no Founder safeguard, emergency override, or unilateral emergency governance power exists.
 
 ### 4.6 Decision Tree
 
@@ -257,49 +246,53 @@ flowchart TD
 
 ### 5.2 Quorum
 
-A Governance Council vote requires a minimum of 60% of seated Council members participating for the result to be valid. If quorum is not met, the vote is rescheduled within 7 days.
+The Council quorum rule is **To Be Established** through the documented collective governance process. No Council vote may be represented as valid until the Council has been formally constituted and the applicable rule has been publicly recorded.
 
 ### 5.3 Majority Thresholds
 
+Decision thresholds are **To Be Established** through a public proposal and collective approval. The labels below describe possible categories only and do not create an operative threshold until formally approved and published.
+
 | Threshold | Requirement | Used for |
 |---|---|---|
-| Simple Majority | More than 50% of participating votes | Operational ratifications, Working Group Lead confirmation |
-| Absolute Majority | More than 50% of **all seated** Council members (not just participants) | Treasury disbursements above the standard threshold |
-| Two-Thirds Majority | ≥ 66.7% of participating votes | Amendments to Working Group charters, removal of a Maintainer |
-| Super Majority | ≥ 75% of participating votes | Amendments to this Governance document, removal of a Council member or the Founder |
+| Simple Majority | To Be Established | To Be Established |
+| Absolute Majority | To Be Established | To Be Established |
+| Two-Thirds Majority | To Be Established | To Be Established |
+| Super Majority | To Be Established | To Be Established |
 
 ### 5.4 Voting Duration
 
-- Standard Council votes remain open a minimum of **5 business days**.
-- Emergency ratification votes remain open a minimum of **48 hours**.
-- Community feedback polls remain open a minimum of **7 calendar days** to accommodate contributors across time zones and connectivity conditions.
+Voting durations and any non-binding feedback windows are **To Be Established** through the documented collective governance process. A proposal must identify the applicable process before it is described as approved.
 
 ---
 
 ## 6. Proposal Lifecycle
 
-Every non-operational decision moves through the same eight stages, tracked publicly via a GitHub Discussion or Issue with a standard template.
+Any community member, contributor, maintainer, working-group participant, or Founder may submit an idea or proposal. Proposals are published in a public CeloHT GitHub Discussion or Issue using the applicable template so the review, deliberation, process status, decision, and implementation record are auditable. A submitted proposal is not an approved decision.
+
+Every non-operational decision moves through the following stages. The approval or rejection outcome must be recorded before implementation begins.
 
 ```mermaid
 flowchart LR
     A[1. Idea] --> B[2. Discussion]
     B --> C[3. Draft]
-    C --> D[4. Community Feedback]
-    D --> E[5. Revision]
-    E --> F[6. Vote]
-    F --> G[7. Implementation]
-    G --> H[8. Review]
-    H -.iterate if needed.-> C
+    C --> D[4. Public Review]
+    D --> E[5. Deliberation and Revision]
+    E --> F[6. Collective Decision]
+    F --> G[7. Documented Approval or Rejection]
+    G --> H[8. Implementation if Approved]
+    H --> I[9. Review]
+    I -.iterate if needed.-> C
 ```
 
-1. **Idea** — Posted informally in the relevant forum or GitHub Discussion category.
-2. **Discussion** — Open community conversation; a Working Group Lead or Maintainer assesses whether it merits a formal proposal.
-3. **Draft** — Author writes a full proposal using the standard template (problem, solution, impact, cost, risks).
-4. **Community Feedback** — Minimum 5-day public comment window.
-5. **Revision** — Author incorporates feedback or documents why specific feedback was not incorporated.
-6. **Vote** — Routed to the appropriate decision category and threshold (Sections 4–5).
-7. **Implementation** — Assigned an owner and tracked to completion.
-8. **Review** — Outcome assessed against original goals at a defined checkpoint (typically 90 days post-implementation) and published.
+1. **Idea** — Posted informally in the relevant public forum or GitHub Discussion category.
+2. **Discussion** — Open community conversation to clarify scope, evidence, conflicts, and the applicable decision category.
+3. **Draft** — Author writes a full proposal using the standard template (problem, solution, impact, cost, risks, and conflicts of interest).
+4. **Public Review** — The proposal is published for community review; any applicable duration is recorded with the proposal.
+5. **Deliberation and Revision** — The author and participants discuss the proposal, and the record explains material revisions or unresolved objections.
+6. **Collective Decision** — The proposal is routed to the documented decision process. No proposer may approve their own proposal alone.
+7. **Documented Approval or Rejection** — The decision, participants or approving body, applicable rule, conflicts and recusals, rationale, and date are recorded publicly. Until this occurs, the item remains a proposal.
+8. **Implementation if Approved** — An accountable implementer and status are recorded; rejected proposals are not implemented as approved decisions.
+9. **Review** — The outcome is assessed against the original goals at a defined checkpoint and published.
 
 ---
 
@@ -438,7 +431,7 @@ Security vulnerabilities in CeloHT code (including smart contracts) should be re
 
 ### 12.2 Incident Response
 
-A security incident triggers the Emergency Decision process (Section 4.5). The Working Group or Maintainer team affected leads containment, with the Founder safeguard available only if Council quorum cannot be reached.
+A security incident triggers the containment and documented review process in Section 4.5. The affected Working Group or Maintainer team may lead necessary technical containment within its existing repository or system permissions; no security incident creates Founder governance powers.
 
 ### 12.3 Emergency Actions
 
@@ -618,7 +611,7 @@ Each risk category is reviewed at minimum annually as part of the Annual Governa
 Each year, the Governance Council conducts a formal review of this document and CeloHT's overall governance health, covering:
 
 - Whether decision thresholds and quorum rules functioned as intended.
-- Whether the Founder safeguard was used, and whether conditions now allow it to be narrowed further.
+- Whether any undocumented authority or process has been claimed, and whether this document needs clarification.
 - Working Group charter effectiveness and any needed restructuring.
 - Community feedback on governance processes, collected via open survey.
 
@@ -663,7 +656,7 @@ graph TD
 | Operational | Maintainer / WG Lead | N/A (logged) | Immediate |
 | Technical | Maintainers + RFC | Maintainer consensus | 5-day min RFC |
 | Strategic | Governance Council | Absolute Majority (or Super Majority for governance) | 5-day min vote |
-| Emergency | Founder safeguard / available Council | Ratified within 14 days | Immediate action, 72-hr report |
+| Emergency | Minimum necessary technical containment; collective review process To Be Established | To Be Established | Documented as soon as safely possible |
 
 ### 23.3 Voting Matrix
 

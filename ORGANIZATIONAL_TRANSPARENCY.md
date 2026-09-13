@@ -41,12 +41,7 @@ No role is filled by informal designation, personal relationship to the Founder,
 
 ## 4. How Governance Protects Decentralization
 
-`GOVERNANCE.md` structurally prevents any single individual — including the Founder — from controlling CeloHT's leadership composition:
-
-- Governance Council seats are elected, term-limited, and staggered so no more than half the Council turns over at once.
-- The Founder holds one vote among several on the Council and a narrowly scoped, auto-expiring emergency safeguard, not appointment authority over other roles.
-- Maintainer and Working Group Lead appointments require Governance Council review, not sole Founder approval.
-- Conflict-of-interest and recusal rules (`GOVERNANCE.md` Section 10) apply to every role, including the Founder, preventing self-dealing in appointment decisions.
+`GOVERNANCE.md` establishes that governance is transparent, documented, reviewable, and collectively determined. Governance Council formation and any future appointment rules remain pending until publicly approved; no Council members are invented in this repository. Founder status does not override governance, create a reserved seat or vote, or provide a veto, emergency override, or unilateral authority. Any individual may submit a proposal, but an individual submission remains a proposal until the required collective process and documented outcome are complete.
 
 ---
 
@@ -63,7 +58,7 @@ Verification is a staged process, not a single event:
 | Public profile confirmation | Per `VERIFICATION_POLICY.md` Section 2, using the individual's own, self-provided links |
 | Publication | Verified individual is published in `TEAM.md` / `MAINTAINERS.md` with a "Verified" status |
 
-Until an individual completes this process, CeloHT documentation reflects their actual status — "Pending Verification," "Open," or "TBA" — rather than a status they have not yet earned or confirmed.
+Until an individual completes this process, CeloHT documentation reflects their actual status — "Pending Verification," "Open," or "TBA" — rather than a status they have not yet earned or confirmed. The same evidence-based standard applies to verification of the Founder designation; no evidence is fabricated or implied.
 
 ---
 

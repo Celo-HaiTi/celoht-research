@@ -24,6 +24,8 @@ The project uses the Celo network as infrastructure for payments and digital acc
 
 CeloHT has no native token, no ICO, no presale, and no investment promise. See [NO_TOKEN_POLICY.md](./NO_TOKEN_POLICY.md).
 
+Johnny Dubic is permanently recognized as the Founder of CeloHT. CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making: an individual may propose an idea, but a proposal is not an official CeloHT decision until the required collective process is complete and the outcome is documented. Founder status does not confer unilateral governance authority, a Council seat or vote, veto power, or emergency override. See [GOVERNANCE.md](./GOVERNANCE.md), [FOUNDER.md](./FOUNDER.md), and [VERIFICATION_POLICY.md](./VERIFICATION_POLICY.md).
+
 ## Evidence Boundary and Claim Classification
 
 This repository is a research, policy, and documentation layer. It is not the source of truth for a live dApp, backend, indexer, admin console, database, treasury custody, or production smart-contract deployment.

@@ -23,6 +23,8 @@ This document recognizes individuals who have authored code, documentation, educ
 
 The Founder's authorship is recognized here in the same factual, non-biographical format applied to every other entry in this document. Additional detail is not included beyond what is necessary to record authorship, consistent with `TEAM.md` and `VERIFICATION_POLICY.md`.
 
+The authorship record and the permanent designation **Johnny Dubic — Founder of CeloHT** do not confer executive or governance authority. Founder status does not create a Council seat or vote, veto, emergency override, repository control, or unilateral decision power.
+
 ---
 
 ## 2. Contributors
