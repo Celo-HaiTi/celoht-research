@@ -4,7 +4,7 @@
 
 The idea behind CeloHT dates to **2022** — an early exploration of whether blockchain technology could offer a practical answer to a problem the founder saw directly: limited access to financial education and digital tools in Haitian communities, alongside real barriers to participating in the global digital economy, and a need for development that didn't ignore environmental sustainability.
 
-That early exploration became CeloHT's founding vision: **using technology to create real opportunities for communities that need greater access to financial tools, education, and sustainable development.**
+That early exploration became CeloHT's founding vision: **using technology to create real opportunities for communities that need greater access to financial tools, education, and sustainable development.** CeloHT was founded by Johnny Dubic on April 16, 2022, in Léogâne, Haiti. CeloHT permanently recognizes Johnny Dubic as its Founder in the project's historical and institutional record.
 
 Turning that idea into an active initiative took time. CeloHT started in Léogâne, Haiti, and its concrete build-out — the flagship repository, the first trained agents, its first ecosystem partnerships — began in earnest starting in 2025–2026, detailed below.
 

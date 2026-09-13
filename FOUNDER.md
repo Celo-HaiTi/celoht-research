@@ -2,11 +2,11 @@
 <img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />
 
 
-# Johnny Dubic — Founder of CeloHT
+# Johnny Dubic — Permanently Recognized Founder of CeloHT
 
 ## Founder | CeloHT; Founder | FreClean
 
-Johnny Dubic is permanently recognized as the Founder of CeloHT. Founder status records CeloHT's founding history and does not automatically confer executive authority, CEO, Director, Manager, Governance Council membership, a Council seat or vote, veto power, a Founder safeguard, emergency override, repository control, or unilateral governance authority. The Founder may participate in CeloHT proposals and deliberation under the same documented governance process as every other participant.
+Johnny Dubic is permanently recognized as the Founder of CeloHT in the project's historical and institutional record. Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. Founder status does not automatically confer executive authority, CEO, Director, Manager, Governance Council membership, a Council seat or vote, a Founder safeguard, emergency override, repository control, or any other special governance privilege. The Founder may participate in CeloHT proposals and deliberation under the same documented governance process as every other participant.
 
 **CeloHT founder verification status: Pending Verification.** This status is used because this repository does not contain a complete, independently auditable verification record. It is not a statement that the founding designation is unrecognized. Verification must be evidence-based, objective, reproducible, and auditable under `VERIFICATION_POLICY.md`.
 

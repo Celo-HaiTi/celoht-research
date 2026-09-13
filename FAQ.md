@@ -16,7 +16,7 @@ CeloHT is not officially affiliated with, endorsed by, sponsored by, or operated
 See "LEGAL_STATUS.md" (./LEGAL_STATUS.md).
 
 Who founded CeloHT?
-Johnny Dubic founded CeloHT. CeloHT is community-governed, and the founder does not unilaterally control community decisions. See "GOVERNANCE.md" (./GOVERNANCE.md).
+Johnny Dubic is the Founder of CeloHT and is permanently recognized as such in the project's historical and institutional record. Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. CeloHT is community-governed, and the Founder does not unilaterally control community decisions. See [GOVERNANCE.md](./GOVERNANCE.md).
 
 Using CeloHT
 

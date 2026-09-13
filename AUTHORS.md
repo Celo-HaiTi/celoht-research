@@ -19,11 +19,11 @@ This document recognizes individuals who have authored code, documentation, educ
 
 | Name | Role | First Contribution |
 |---|---|---|
-| Johnny Dubic | Founder | Founding contributor to CeloHT's initial documentation, governance framework, and project direction |
+| Johnny Dubic | Permanently Recognized Founder of CeloHT | Founding contributor to CeloHT's initial documentation, governance framework, and project direction |
 
 The Founder's authorship is recognized here in the same factual, non-biographical format applied to every other entry in this document. Additional detail is not included beyond what is necessary to record authorship, consistent with `TEAM.md` and `VERIFICATION_POLICY.md`.
 
-The authorship record and the permanent designation **Johnny Dubic — Founder of CeloHT** do not confer executive or governance authority. Founder status does not create a Council seat or vote, veto, emergency override, repository control, or unilateral decision power.
+The authorship record and the permanent designation **Johnny Dubic — Permanently Recognized Founder of CeloHT** do not confer executive or governance authority. Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. Founder status does not create a Council seat or vote, emergency override, repository control, or unilateral decision power.
 
 ---
 
