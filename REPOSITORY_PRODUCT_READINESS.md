@@ -68,7 +68,7 @@ This repo does not own the live operational integrations themselves.
 - stale or duplicate repository-level documents and configuration variants
 - documentation that describes planned deployment/API behavior with production-looking
 	URLs or commands
-- inconsistent use of current USDm terminology and historical cUSD identifiers
+- inconsistent use of current USDm terminology and legacy asset identifiers from earlier project iterations
 - readiness claims that were stronger than the files and validation scope supported
 
 ## Contradictions Resolved
