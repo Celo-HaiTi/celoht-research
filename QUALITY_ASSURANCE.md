@@ -37,7 +37,7 @@ Published research isn't "done" the day it's published — maintainers periodica
 
 ## Escalation
 
-Persistent quality issues in a specific research area are raised with that area's maintainer; systemic issues are raised with the Maintainer Council per the main documentation repository's `GOVERNANCE.md`.
+Persistent quality issues in a specific research area are raised with that area's Maintainer; systemic issues are raised with the relevant Working Group and, when they require a governance-level decision, the Governance Council per `GOVERNANCE.md`.
 
 ## Related Documents
 

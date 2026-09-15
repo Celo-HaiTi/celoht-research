@@ -31,7 +31,7 @@ CeloHT's Governance & Legal Working Group maintains a minimum operating reserve 
 
 ## Conflicts of Interest
 
-Maintainer Council or Working Group members with a financial relationship to a prospective funder must disclose it and recuse themselves from the funding decision, per [GOVERNANCE.md](./GOVERNANCE.md#ethics).
+Governance Council, Maintainer, or Working Group members with a financial relationship to a prospective funder must disclose it and recuse themselves from the funding decision, per [GOVERNANCE.md](./GOVERNANCE.md#10-conflict-of-interest-policy).
 
 ## References
 

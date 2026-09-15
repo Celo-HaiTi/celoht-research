@@ -33,7 +33,7 @@ Follows the mandatory process in [SMART_CONTRACTS.md](./SMART_CONTRACTS.md#path-
 # Testnet deployment (Celo Sepolia)
 # The owning smart-contract repository must provide and validate deployment scripts.
 
-# Mainnet deployment — requires Maintainer Council sign-off per GOVERNANCE.md
+# Mainnet deployment — requires Maintainer sign-off per GOVERNANCE.md
 # Mainnet deployment always requires explicit human approval and evidence.
 ```
 

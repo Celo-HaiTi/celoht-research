@@ -140,7 +140,7 @@ The Founder may submit proposals, participate in public discussion, provide hist
 
 ### 3.2 Governance Council
 
-The Governance Council is a proposed collective body for strategic, treasury, and governance-amendment matters. **Council formation is pending; no Council members or seats are currently confirmed in this repository.** Its composition, size, terms, election process, authority, and decision thresholds are **To Be Established** through a public proposal and collective approval. The Founder is not automatically assigned a Council seat or vote.
+The Governance Council is CeloHT's highest ongoing collective decision-making body for strategic, treasury, and governance-amendment matters. **Council formation is pending; no Council members or seats are currently confirmed in this repository.** Its composition, size, terms, election process, authority, and decision thresholds are **To Be Established** through a public proposal and collective approval. The Founder is not automatically assigned a Council seat or vote.
 
 ### 3.3 Maintainers
 
@@ -695,7 +695,7 @@ See Section 6, Proposal Lifecycle diagram.
 |---|---|
 | **Absolute Majority** | More than 50% of all seated Council members, not just those participating in the vote |
 | **Ambassador** | A community representative for a specific region or institution |
-| **Council** | Short for Governance Council, CeloHT's primary strategic decision-making body |
+| **Council** | Short for Governance Council, CeloHT's highest ongoing collective decision-making body for strategic, treasury, and governance-amendment matters |
 | **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification |
 | **Maintainer** | A contributor with repository write/merge access and review responsibilities |

@@ -635,7 +635,7 @@ graph TD
 
 | Role | Core Responsibility | Authority Limit |
 |---|---|---|
-| Founder | Mission continuity, narrow emergency safeguard | One vote among several on Council; no unilateral treasury or governance authority |
+| Founder | Founding history, mission continuity, institutional context, and community participation | No automatic Council membership, vote, veto, emergency override, or unilateral treasury or governance authority |
 | Governance Council | Strategic, treasury, and governance decisions | Bound by quorum, majority thresholds, and this document's own amendment process |
 | Maintainers | Code review, releases, security triage | No governance or treasury authority beyond their repository scope |
 | Working Groups | Operational execution within a published charter | Report to and are appointed by the Governance Council |
@@ -662,7 +662,7 @@ flowchart LR
 
 | Risk | Mitigation |
 |---|---|
-| Concentration of authority in the Founder role | Council-based governance, term limits, narrow and auto-expiring emergency safeguard (`GOVERNANCE.md` Section 3.1) |
+| Concentration of authority in the Founder role | Council-based governance and the documented limits on Founder authority (`GOVERNANCE.md` Section 3.1) |
 | Governance paralysis | Defined quorum and majority thresholds calibrated per decision category (`GOVERNANCE.md` Section 5) |
 | Governance decisions made without community visibility | Mandatory public comment periods within the Proposal Lifecycle |
 
@@ -1341,7 +1341,7 @@ Through a combination of on-chain attestation (for reforestation and agent verif
 | **CHIP** | CeloHT Improvement Proposal, the DAO-era proposal format described in `DAO.md` Section 5 |
 | **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification (`GOVERNANCE.md` Section 4.5) |
-| **Governance Council** | CeloHT's primary strategic and treasury decision-making body |
+| **Governance Council** | CeloHT's highest ongoing collective decision-making body for strategic and treasury matters |
 | **Impact Dashboard** | CeloHT's public, continuously updated reporting interface aggregating Education, Agent Network, and Reforestation metrics |
 | **Maintainer** | A contributor with repository write/merge access and review responsibilities |
 | **MOU** | Memorandum of Understanding, CeloHT's standard partnership-formalization document |

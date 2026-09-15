@@ -11,7 +11,7 @@
 |---|---|
 | Working paper | One reviewer, methodology-focused |
 | Published report / case study | Two reviewers, one methodology-focused, one domain-focused |
-| Whitepaper | Two reviewers plus a Maintainer Council read-through, given its higher visibility |
+| Whitepaper | Two reviewers plus a Governance Council read-through, given its higher visibility |
 | Anything touching human-subject data | Additional ethics review per [RESEARCH_ETHICS.md](./RESEARCH_ETHICS.md), independent of peer review |
 
 ## What Reviewers Check
@@ -37,7 +37,7 @@ Reviewers are expected to engage substantively — a review that only says "look
 
 ## Disagreement Between Author and Reviewer
 
-Unresolved disagreement escalates to the relevant research-area maintainer, and if still unresolved, to the Maintainer Council (per the governance model in the main documentation repository's `GOVERNANCE.md`). The goal is a decision, not an infinite thread.
+Unresolved disagreement escalates to the relevant research-area Maintainer, and if still unresolved, to the Governance Council for a governance-level decision (per the model in `GOVERNANCE.md`). The goal is a decision, not an infinite thread.
 
 ## Review Timelines
 

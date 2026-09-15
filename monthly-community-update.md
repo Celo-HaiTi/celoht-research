@@ -1,6 +1,6 @@
 # Template: Monthly Community Update
 
-*Used by the Maintainer Council to publish a regular, honest progress update — see [GOVERNANCE.md](../GOVERNANCE.md#transparency-commitments) and [ROADMAP.md](../ROADMAP.md).*
+*Used by the Governance Council to publish a regular, honest progress update — see [GOVERNANCE.md](../GOVERNANCE.md#18-transparency-policy) and [ROADMAP.md](../ROADMAP.md).*
 
 ---
 

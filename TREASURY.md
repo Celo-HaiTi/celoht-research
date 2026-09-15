@@ -39,7 +39,7 @@ Treasury governance follows the structure defined in `GOVERNANCE.md` Section 8:
 
 - A **Treasury Committee** of three members, drawn from the Governance Council and Finance Working Group, manages day-to-day operations.
 - No single Treasury Committee member may unilaterally authorize a disbursement.
-- The Governance Council holds ultimate authority over treasury policy and any disbursement above the Committee-level threshold defined in `EXPENSE_APPROVAL_POLICY.md`.
+- The Governance Council, as CeloHT's highest ongoing collective decision-making body, decides treasury policy and any disbursement above the Committee-level threshold defined in `EXPENSE_APPROVAL_POLICY.md`.
 
 ## 3. Treasury Approval Workflow
 
