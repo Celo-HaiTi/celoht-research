@@ -15,7 +15,7 @@ import { CeloHT } from '@celoht/sdk';
 
 const client = new CeloHT({
   network: 'celo-sepolia', // or 'mainnet'
-  apiUrl: 'https://api.celoht.com/v1',
+  apiUrl: '<your-api-url>',
 });
 ```
 

@@ -16,7 +16,7 @@ npm install -g @celoht/cli
 
 ```bash
 celoht config set network celo-sepolia
-celoht config set api-url https://api.celoht.com/v1
+celoht config set api-url <your-api-url>
 ```
 
 ## Core Commands

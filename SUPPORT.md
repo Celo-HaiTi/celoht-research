@@ -4,8 +4,8 @@
 
 | Need | Where |
 |---|---|
-| General question about CeloHT | [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) |
-| Bug report or documentation issue | [Open an issue](https://github.com/Celo-HaiTi/CeloHT/issues) |
+| General question about CeloHT | [GitHub Discussions](https://github.com/Celo-HaiTi/celoht-research/discussions) |
+| Bug report or documentation issue | [Open an issue](https://github.com/Celo-HaiTi/celoht-research/issues) |
 | Security vulnerability | See [SECURITY.md](./SECURITY.md) — do **not** open a public issue |
 | Partnership inquiry | See [PARTNERS.md](./PARTNERS.md#how-to-propose-a-partnership) |
 | Press/media inquiry | See [CONTACT.md](./CONTACT.md) |
@@ -15,7 +15,7 @@
 
 1. Check [FAQ.md](./FAQ.md) — many common questions are already answered there.
 2. Check [GLOSSARY.md](./GLOSSARY.md) if a term is unfamiliar.
-3. Search existing [issues](https://github.com/Celo-HaiTi/CeloHT/issues) and [discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) — your question may already have an answer.
+3. Search existing [issues](https://github.com/Celo-HaiTi/celoht-research/issues) and [discussions](https://github.com/Celo-HaiTi/celoht-research/discussions) — your question may already have an answer.
 
 ## Response Times
 

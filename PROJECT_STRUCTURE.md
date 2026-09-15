@@ -7,14 +7,9 @@ This workspace contains only the research repository. The implementation reposit
 ```
 github.com/Celo-HaiTi/
 ├── celoht-research/        Research, governance, and evidence repository
-├── celoht-docs/            Planned official documentation layer (not present here)
-├── celoht-brand/           Brand assets and identity (not present here)
-├── celoht-dapp/            dApp implementation (not present here)
-├── celoht-admin/           Admin tooling (not present here)
-├── celoht-backend/         Backend implementation (not present here)
-├── celoht-indexer/         Indexer implementation (not present here)
-├── celoht-smart-contracts/ Solidity implementation (not present here)
-└── .github/                Organization-level community health files (not present here)
+├── other ecosystem repos/  Implementation, brand, docs, or app repos are separate and not present here
+├── .github/                Organization-level community health files (not present here)
+└── ...                     Additional repositories are treated as external unless checked out locally
 ```
 
 ## This Repository's Actual Structure

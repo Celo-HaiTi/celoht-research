@@ -10,7 +10,7 @@ This guide helps developers set up, understand, and contribute to CeloHT's codeb
 git clone https://github.com/Celo-HaiTi/celoht-dapp.git
 cd dApp
 npm install
-cp .env.example .env.local   # fill in required values, see below
+cp .env.example .env.local   # fill in required values for your environment
 npm run dev
 ```
 
@@ -30,7 +30,7 @@ npx hardhat test
 
 ```
 NEXT_PUBLIC_CELO_NETWORK=celo-sepolia        # celo-sepolia (testnet) or mainnet
-NEXT_PUBLIC_API_BASE_URL=https://api.celoht.com/v1
+NEXT_PUBLIC_API_BASE_URL=<your API base URL>
 WALLETCONNECT_PROJECT_ID=<your-project-id>
 ```
 
